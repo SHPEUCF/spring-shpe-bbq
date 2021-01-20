@@ -39,7 +39,7 @@ renderHeader() {
   return (
     <div id='header'>
       <br></br>
-      <img id='headImg' src={require('../assets/shpe/bbqLogo.png')} alt='image unavailable'/>
+      <img id='headImg' src={require('../assets/shpe/bbqLogo.png').default} alt='image unavailable'/>
       <h4>
       Welcome to SHPE UCF's 2020 Virtual Industry BBQ! <br></br><br></br>
       Please fill out the RSVP form and watch the tutorial by clicking the buttons below.<br></br> 
@@ -89,7 +89,6 @@ renderVideoDialog() {
   );
 }
   handleSearchChange = async (e)  => {
-    // console.log(e.target.value);
     await this.setState({search: e.target.value});
   }
                    
@@ -103,7 +102,7 @@ renderVideoDialog() {
         >
           <Toolbar>
             <div id='searchInput' >
-            <img id='pic' src={require('../assets/shpe/shpelogo.png')} alt='image unavailable' />
+            <img id='pic' src={require('../assets/shpe/shpelogo.png').default} alt='image unavailable' />
               <TextField
                 id = 'search'
                 label='Search for a Company'
@@ -285,13 +284,13 @@ renderVideoDialog() {
         { this.renderMonday() }
         {/* { this.renderTuesday() } */}
         <div id='footer'>
-          <img id='pic2' src={require('../assets/shpe/career_services.png')} alt='image unavailable'/>
+          <img id='pic2' src={require('../assets/shpe/career_services.png').default} alt='image unavailable'/>
           <h6 id='footerText'>
             Brought to you by the <a className='ref' target='_blank' href='https://tech.shpeucf.com/' >SHPE UCF Tech Committee.</a>
             <br></br>
             Want to learn more about SHPE UCF? Check out our Youtube channel - <a className='ref' target='_blank' href='https://www.youtube.com/user/shpeucfchapter'>SHPE UCF</a>
           </h6>
-          <img id='pic3' src={require('../assets/shpe/ODI.png')} alt='image unavailable'/>
+          <img id='pic3' src={require('../assets/shpe/ODI.png').default} alt='image unavailable'/>
         </div>
 		  </div>
 	  );
