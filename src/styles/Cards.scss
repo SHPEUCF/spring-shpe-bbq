@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+#home .cards {
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+}
+
+#home .cardText {
+    font-family: Poppins-Regular;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
+
+.cards img {
+    height: 70%;
+    width: 100%;
+}
+
+#img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
