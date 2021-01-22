@@ -68,6 +68,21 @@ body {
       font-family: Poppins-Regular;
       display: flex;
       align-items: center;
+
+      svg {
+        fill: currentColor;
+        margin-right: 15px;
+      }
+      &.active {
+        background: $greyLighter;
+        color: white;
+        svg {
+          fill: white;
+        }
+      }
+      &:hover {
+        color: white;
+      }
     }
   }
   .meta {

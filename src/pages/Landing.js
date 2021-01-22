@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
-import '../styles/Landing.scss'
-class Landing extends Component {
-	render() {
-		return (
-			<div className = "App">
-            <h1 className="text">Hello</h1>
-			</div>
-		);
-	}
-}
+import React from 'react';
+import '../styles/Landing.scss';
 
-export default Landing;
+export const Landing = () => {
+	return (
+		<div className = 'App'>
+			<h1 className = 'text'>Landing Page</h1>
+		</div>
+	);
+}

@@ -5,6 +5,7 @@ plugins:
   - react
 env:
   browser: true
+  node: true
 parserOptions:
   ecmaFeatures:
     jsx: true
@@ -77,7 +78,7 @@ rules:
   max-len:                                 # require lines to be less than X characters
     - error
     - tabWidth: 3
-    - code: 120
+    - code: 125
       comments: 160
       ignoreStrings: true
       ignoreTemplateLiterals: true
