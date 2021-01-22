@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
+import { dayOneData, dayTwoData, companyData } from '../data';
 import '../styles/Cards.scss';
-import { mondayData, tuesdayData } from '../data/companyList';
-import { companyData } from '../data/companyData';
 import {
 	Grid,
 	Card,
@@ -21,42 +20,49 @@ export const Cards = ({ data, search }) => {
 	const [show, setShow] = useState(false);
 	const [selectedCompany, setSelectedCompany] = useState('');
 
-	const renderDialog = () => (
-		<Dialog open = { show } onClose = { () => setShow(false) }>
-			<DialogTitle>
-				{ companyData.map(company => (selectedCompany === company.name) && company.title) }
-			</DialogTitle>
-			<DialogContent>
+	const renderDialog = () => {
+		if (selectedCompany) // eslint-disable-next-line no-var
+			var { tagline, img, description, careersLink, zoomLink } = companyData[selectedCompany];
+
+		return (
+			<Dialog open = { show } onClose = { () => setShow(false) }>
+				<DialogTitle>
+					{ tagline }
+				</DialogTitle>
 				<DialogContent>
-					{ companyData.map(company =>
-						(selectedCompany === company.name) && <img id = 'img' src = { company.img } alt = { company.name } />
-					) }
+					<DialogContent>
+						<img id = 'img' src = { img } alt = { selectedCompany.companyName } />
+					</DialogContent>
+					<DialogContentText>
+						{ description }
+					</DialogContentText>
 				</DialogContent>
-				<DialogContentText>
-					{ companyData.map(company => (selectedCompany === company.name) && company.desc) }
-				</DialogContentText>
-			</DialogContent>
-			<DialogActions>
-				<Button size = 'small' color = 'primary' href = { selectedCompany.careersLink }> Careers </Button>
-				<Button size = 'small' color = 'primary' href = { selectedCompany.zoomLink }> Join Zoom </Button>
-				<Button size = 'small' color = 'primary' onClick = { () => setShow(false) }> Close </Button>
-			</DialogActions>
-		</Dialog>
-	);
+				<DialogActions>
+					<Button size = 'small' color = 'primary' href = { careersLink } target = '_blank'> Careers </Button>
+					<Button size = 'small' color = 'primary' href = { zoomLink } target = '_blank'> Join Zoom </Button>
+					<Button size = 'small' color = 'primary' onClick = { () => setShow(false) }> Close </Button>
+				</DialogActions>
+			</Dialog>
+		);
+	};
 
 	const renderDay = () => {
-		let day = (data === 'dayOne') ? mondayData : tuesdayData;
-		let filterCompanies = day.filter(company => company.name.toLowerCase().indexOf(search.toLowerCase()) !== -1);
+		let day = (data === 'dayOne') ? dayOneData : dayTwoData;
+		let filterCompanies = day.filter(({ companyName }) =>
+			companyName.toLowerCase().indexOf(search.toLowerCase()) !== -1);
 
 		return (
 			<Grid container className = 'layout'>
-				{ filterCompanies.map(({ name, img, desc }, index) =>
+				{ filterCompanies.map(({ companyName, logo, shortDesc }, index) =>
 					<Card className = 'cards' key = { index }>
-						<CardActionArea onClick = { () => { setSelectedCompany(filterCompanies[index]); setShow(true) } }>
-							<CardMedia component = 'img' alt = { name } image = { img } title = { name } />
+						<CardActionArea onClick = { () => {
+							setSelectedCompany(filterCompanies[index].companyName);
+							setShow(true);
+						} }>
+							<CardMedia component = 'img' alt = { companyName } image = { logo } title = { companyName } />
 							<CardContent>
-								<Typography className = 'cardText' variant = 'body1' color = 'textSecondary' component = 'p'>
-									{ desc }
+								<Typography className = 'cardText' variant = 'body1' color = 'textSecondary'>
+									{ shortDesc }
 								</Typography>
 							</CardContent>
 						</CardActionArea>

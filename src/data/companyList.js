@@ -1,185 +1,155 @@
-export const mondayData = [
+export const dayOneData = [
 	{
-		name: 'Accenture',
-		img: require('../assets/images/accentureLogo.jpg'),
-		desc: 'Unleash your talents and apply the new, now with a career that disrupts and transforms every industry in every country.',
-		id: 1
+		companyName: 'Accenture',
+		logo: require('../assets/images/accentureLogo.jpg'),
+		shortDesc: 'Unleash your talents and apply the new, now with a career that disrupts and transforms every industry in every country.'
 	},
 	{
-		name: 'Aerion Supersonic',
-		img: require('../assets/images/aerionLogo.jpg'),
-		desc: 'Help build the future and revolutionize global transportation, starting with sustainable supersonic flight.',
-		id: 2
+		companyName: 'Aerion Supersonic',
+		logo: require('../assets/images/aerionLogo.jpg'),
+		shortDesc: 'Help build the future and revolutionize global transportation, starting with sustainable supersonic flight.'
 	},
 	{
-		name: 'Capco',
-		img: require('../assets/images/capcoLogo.jpg'),
-		desc: 'Capco is a global management and technology consultancy dedicated to the financial services and energy industries.',
-		id: 3
+		companyName: 'Capco',
+		logo: require('../assets/images/capcoLogo.jpg'),
+		shortDesc: 'Capco is a global management and technology consultancy dedicated to the financial services and energy industries.'
 	},
 	{
-		name: 'DATIS',
-		img: require('../assets/images/datisLogo.png'),
-		desc: 'We’re focused on building a diverse and inclusive team to accelerate our growth and provide the best experience to our clients.',
-		id: 4
+		companyName: 'DATIS',
+		logo: require('../assets/images/datisLogo.png'),
+		shortDesc: 'We’re focused on building a diverse and inclusive team to accelerate our growth and provide the best experience to our clients.'
 	},
 	{
-		name: 'Embraer',
-		img: require('../assets/images/embraerLogo.png'),
-		desc: 'We use design, imaginative engineering, and technology as the principle tools to create new perspectives, and arrive at solutions.',
-		id: 5
+		companyName: 'Embraer',
+		logo: require('../assets/images/embraerLogo.png'),
+		shortDesc: 'We use design, imaginative engineering, and technology as the principle tools to create new perspectives, and arrive at solutions.'
 	},
 	{
-		name: 'Gartner',
-		img: require('../assets/images/gartnerLogo.jpg'),
-		desc: 'We are the leading research and advisory company. We fuel the future of business so that a more successful world takes shape.',
-		id: 6
+		companyName: 'Gartner',
+		logo: require('../assets/images/gartnerLogo.jpg'),
+		shortDesc: 'We are the leading research and advisory company. We fuel the future of business so that a more successful world takes shape.'
 	},
 	{
-		name: 'JPMorgan Chase & Co.',
-		img: require('../assets/images/jpmcLogo.png'),
-		desc: 'JPMorgan Chase & Co. is a leading global financial services firm and one of the largest banking institutions in the United States.',
-		id: 7
+		companyName: 'JPMorgan Chase & Co.',
+		logo: require('../assets/images/jpmcLogo.png'),
+		shortDesc: 'JPMorgan Chase & Co. is a leading global financial services firm and one of the largest banking institutions in the United States.'
 	},
 	{
-		name: 'Kennedy Space Center',
-		img: require('../assets/images/kscLogo.jpg'),
-		desc: 'We tackle each adventure with curiosity and innovation to leave an enduring impact on the world and humanity.',
-		id: 8
+		companyName: 'Kennedy Space Center',
+		logo: require('../assets/images/kscLogo.jpg'),
+		shortDesc: 'We tackle each adventure with curiosity and innovation to leave an enduring impact on the world and humanity.'
 	},
 	{
-		name: 'Kimley Horn',
-		img: require('../assets/images/kimleyLogo.png'),
-		desc: "One of the nation's premier planning and design engineering consultants dedicated to the continuing success of our clients.",
-		id: 9
+		companyName: 'Kimley Horn',
+		logo: require('../assets/images/kimleyLogo.png'),
+		shortDesc: "One of the nation's premier planning and design engineering consultants dedicated to the continuing success of our clients."
 	},
 	{
-		name: 'Lockheed Martin',
-		img: require('../assets/images/lockheedLogo.png'),
-		desc: "Together, let's change the world for the better. From green energy to aerospace, there are so many ways you can make a difference with us.",
-		id: 10
+		companyName: 'Lockheed Martin',
+		logo: require('../assets/images/lockheedLogo.png'),
+		shortDesc: "Together, let's change the world for the better. From green energy to aerospace, there are so many ways you can make a difference with us."
 	},
 	{
-		name: 'PwC',
-		img: require('../assets/images/pwcLogo.png'),
-		desc: 'We connect people with diverse backgrounds and skills to solve important problems together for our clients, our communities and the world.',
-		id: 11
+		companyName: 'PwC',
+		logo: require('../assets/images/pwcLogo.png'),
+		shortDesc: 'We connect people with diverse backgrounds and skills to solve important problems together for our clients, our communities and the world.'
 	},
 	{
-		name: 'Sandia National Laboratories',
-		img: require('../assets/images/sandiaLogo.png'),
-		desc: 'A multiprogram engineering and science laboratory operated by National Technology and Engineering Solutions of Sandia, LLC.',
-		id: 12
+		companyName: 'Sandia National Laboratories',
+		logo: require('../assets/images/sandiaLogo.png'),
+		shortDesc: 'A multiprogram engineering and science laboratory operated by National Technology and Engineering Solutions of Sandia, LLC.'
 	},
 	{
-		name: 'Texas Instruments',
-		img: require('../assets/images/tiLogo.png'),
-		desc: 'We are a global semiconductor company that designs, manufactures, tests and sells analog and embedded processing chips.',
-		id: 13
+		companyName: 'Texas Instruments',
+		logo: require('../assets/images/tiLogo.png'),
+		shortDesc: 'We are a global semiconductor company that designs, manufactures, tests and sells analog and embedded processing chips.'
 	},
 	{
-		name: 'Thales',
-		img: require('../assets/images/thalesLogo.png'),
-		desc: 'Global leader investing in digital innovations, connectivity, big data, artificial intelligence, cybersecurity and quantum technology.',
-		id: 14
+		companyName: 'Thales',
+		logo: require('../assets/images/thalesLogo.png'),
+		shortDesc: 'Global leader investing in digital innovations, connectivity, big data, artificial intelligence, cybersecurity and quantum technology.'
 	},
 	{
-		name: 'U.S. Navy',
-		img: require('../assets/images/navyLogo.png'),
-		desc: 'Transform Your Life and Become Part of Something Bigger. Learn More About Naval Careers.',
-		id: 15
+		companyName: 'U.S. Navy',
+		logo: require('../assets/images/navyLogo.png'),
+		shortDesc: 'Transform Your Life and Become Part of Something Bigger. Learn More About Naval Careers.'
 	}
 ];
 
-export const tuesdayData = [
+export const dayTwoData = [
 	{
-		name: 'Accenture',
-		img: require('../assets/images/accentureLogo.jpg'),
-		desc: 'Unleash your talents and apply the new, now with a career that disrupts and transforms every industry in every country.',
-		id: 1
+		companyName: 'Accenture',
+		logo: require('../assets/images/accentureLogo.jpg'),
+		shortDesc: 'Unleash your talents and apply the new, now with a career that disrupts and transforms every industry in every country.'
 	},
 	{
-		name: 'Disney',
-		img: require('../assets/images/disneyLogo.jpg'),
-		desc: 'Synonymous with quality entertainment and cutting-edge technology, The Walt Disney Company impacts a global audience every day.',
-		id: 2
+		companyName: 'Disney',
+		logo: require('../assets/images/disneyLogo.jpg'),
+		shortDesc: 'Synonymous with quality entertainment and cutting-edge technology, The Walt Disney Company impacts a global audience every day.'
 	},
 	{
-		name: 'Enercon',
-		img: require('../assets/images/enerconLogo.png'),
-		desc: 'A multi-disciplinary engineering and environmental firm focused on empowering our people and our clients.',
-		id: 3
+		companyName: 'Enercon',
+		logo: require('../assets/images/enerconLogo.png'),
+		shortDesc: 'A multi-disciplinary engineering and environmental firm focused on empowering our people and our clients.'
 	},
 	{
-		name: 'Facebook',
-		img: require('../assets/images/facebookLogo.jpg'),
-		desc: 'People are at the heart of every connection we build. We design products and deliver services that bring the world closer together.',
-		id: 4
+		companyName: 'Facebook',
+		logo: require('../assets/images/facebookLogo.jpg'),
+		shortDesc: 'People are at the heart of every connection we build. We design products and deliver services that bring the world closer together.'
 	},
 	{
-		name: 'Google',
-		img: require('../assets/images/googleLogo.jpg'),
-		desc: "Help us create, design, code, and build for everyone. Build what's next. Grow your career. Learn about open roles.",
-		id: 5
+		companyName: 'Google',
+		logo: require('../assets/images/googleLogo.jpg'),
+		shortDesc: "Help us create, design, code, and build for everyone. Build what's next. Grow your career. Learn about open roles."
 	},
 	{
-		name: 'IBM',
-		img: require('../assets/images/ibmLogo.png'),
-		desc: 'Develop grand ideas for clients and help change how businesses interact with and impact the world.',
-		id: 6
+		companyName: 'IBM',
+		logo: require('../assets/images/ibmLogo.png'),
+		shortDesc: 'Develop grand ideas for clients and help change how businesses interact with and impact the world.'
 	},
 	{
-		name: 'Intel',
-		img: require('../assets/images/intelLogo.png'),
-		desc: "Intel's innovation in cloud computing, data center, IoT, and PC solutions is powering the smart and connected digital world we live in.",
-		id: 7
+		companyName: 'Intel',
+		logo: require('../assets/images/intelLogo.png'),
+		shortDesc: "Intel's innovation in cloud computing, data center, IoT, and PC solutions is powering the smart and connected digital world we live in."
 	},
 	{
-		name: 'John Deere',
-		img: require('../assets/images/johndeereLogo.png'),
-		desc: 'An American corporation that manufactures agricultural, construction, and forestry machinery, diesel engines, drivetrains & more.',
-		id: 8
+		companyName: 'John Deere',
+		logo: require('../assets/images/johndeereLogo.png'),
+		shortDesc: 'An American corporation that manufactures agricultural, construction, and forestry machinery, diesel engines, drivetrains & more.'
 	},
 	{
-		name: 'Kiewitt',
-		img: require('../assets/images/kiewitLogo.jpg'),
-		desc: "Start your Kiewit adventure today with one of North America's largest and most respected construction and engineering organizations.",
-		id: 9
+		companyName: 'Kiewitt',
+		logo: require('../assets/images/kiewitLogo.jpg'),
+		shortDesc: "Start your Kiewit adventure today with one of North America's largest and most respected construction and engineering organizations."
 	},
 	{
-		name: 'Lockheed Martin',
-		img: require('../assets/images/lockheedLogo.png'),
-		desc: "Together, let's change the world for the better. From green energy to aerospace, there are so many ways you can make a difference with us.",
-		id: 10
+		companyName: 'Lockheed Martin',
+		logo: require('../assets/images/lockheedLogo.png'),
+		shortDesc: "Together, let's change the world for the better. From green energy to aerospace, there are so many ways you can make a difference with us."
 	},
 	{
-		name: 'Microsoft',
-		img: require('../assets/images/microsoftLogo.png'),
-		desc: 'We’re on a mission to empower every person and every organization on the planet to achieve more. Learn about open roles.',
-		id: 11
+		companyName: 'Microsoft',
+		logo: require('../assets/images/microsoftLogo.png'),
+		shortDesc: 'We’re on a mission to empower every person and every organization on the planet to achieve more. Learn about open roles.'
 	},
 	{
-		name: 'PwC',
-		img: require('../assets/images/pwcLogo.png'),
-		desc: 'A global network of firms delivering world-class assurance, tax, and consulting services for your business.',
-		id: 12
+		companyName: 'PwC',
+		logo: require('../assets/images/pwcLogo.png'),
+		shortDesc: 'A global network of firms delivering world-class assurance, tax, and consulting services for your business.'
 	},
 	{
-		name: 'U.S. Navy',
-		img: require('../assets/images/navyLogo.png'),
-		desc: 'Transform Your Life and Become Part of Something Bigger. Learn More About Naval Careers.',
-		id: 13
+		companyName: 'U.S. Navy',
+		logo: require('../assets/images/navyLogo.png'),
+		shortDesc: 'Transform Your Life and Become Part of Something Bigger. Learn More About Naval Careers.'
 	},
 	{
-		name: 'Collins Aerospace',
-		img: require('../assets/images/collinsLogo.jpeg'),
-		desc: 'The resources to learn and grow, as well as to advance into leadership roles, are everywhere. Training programs, eLearning modules, lunch-and-learns and seminars develop skillsets and teach new ones.',
-		id: 14
+		companyName: 'Collins Aerospace',
+		logo: require('../assets/images/collinsLogo.jpeg'),
+		shortDesc: 'The resources to learn and grow, as well as to advance into leadership roles, are everywhere. Training programs, eLearning modules, lunch-and-learns and seminars develop skillsets and teach new ones.'
 	},
 	{
-		name: 'Jacobs',
-		img: require('../assets/images/jacobsLogo.png'),
-		desc: 'We’re always looking for dynamic and engaged people to join our team. Bring your passion, your ingenuity and your vision. Let’s see the impact we can create, together.',
-		id: 15
+		companyName: 'Jacobs',
+		logo: require('../assets/images/jacobsLogo.png'),
+		shortDesc: 'We’re always looking for dynamic and engaged people to join our team. Bring your passion, your ingenuity and your vision. Let’s see the impact we can create, together.'
 	}
 ];
