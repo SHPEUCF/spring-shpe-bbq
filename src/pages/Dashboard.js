@@ -7,7 +7,9 @@ export const Dashboard = () => (
 		<div className = 'App'>
 			<Nav />
 			<div className = 'main'>
-				<Search />
+				<div className = 'upperNav'>
+					<Search />
+				</div>
 				<Cards data = 'dayOne' search = '' />
 			</div>
 		</div>

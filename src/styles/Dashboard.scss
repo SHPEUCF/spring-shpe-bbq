@@ -118,10 +118,10 @@ body {
 }
 
 .upperNav {
-  background: rgba(9, 9, 9, 0.78);
-  height: 7%;
+  background: rgba(255, 255, 255, 0.883);
+  height: 8%;
   width: 100%;
-  display: flex;
+  display: absolute;
   align-items: center;
   color: white;
   padding: 0.5rem 2rem;
@@ -135,4 +135,16 @@ body {
   overflow-y: scroll;
   position: relative;
   padding-top: 3.4rem;
+}
+
+.search {
+  margin-left: 5% !important;
+}
+
+.search-filter {
+  position: relative !important;
+  color: rgb(255, 255, 255) !important;
+  width: 12% !important;
+  min-width: 200 !important;
+  margin-left: 5% !important;
 }
