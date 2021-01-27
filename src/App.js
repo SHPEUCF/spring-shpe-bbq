@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dashboard, Landing } from './pages';
+import { Landing, Dashboard } from './pages';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default () => (
