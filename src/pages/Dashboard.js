@@ -3,10 +3,12 @@ import { Cards, Search } from '../components';
 import { Admin } from './Admin';
 import '../styles/Dashboard.scss';
 import Logo from '../assets/shpe/transparentBbq.png';
-import day2Icon from '../assets/icons/day2.svg';
 
 export const Dashboard = () => {
 	const [activeTab, setActiveTab] = useState('dayOne');
+	const [searchInput, setSearchInput] = useState('');
+
+	let handleSearch = (e) => { setSearchInput(e.target.value) };
 
 	const Nav = () => {
 		return (
@@ -39,11 +41,11 @@ export const Dashboard = () => {
 				{ Nav() }
 				<div className = 'main'>
 					<div className = 'upperNav'>
-						<Search />
+						<Search input = { handleSearch } />
 					</div>
-					<div className = 'mainContent'>
-						{ activeTab === 'admin' ? <Admin /> : <Cards data = { activeTab } search = '' /> }
-					</div>
+					{ activeTab === 'admin' ? <Admin />
+						: <Cards data = { activeTab } search = { searchInput } />
+					}
 				</div>
 			</div>
 		</div>

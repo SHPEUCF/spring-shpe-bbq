@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { searchFilters } from '../data/searchFilter';
+import { searchFilters, companyData } from '../data';
 import '../styles/Dashboard.scss';
 import SearchIcon from '@material-ui/icons/Search';
 import {
@@ -14,7 +14,7 @@ import {
 	Select
 } from '@material-ui/core/';
 
-export const Search = () => {
+export const Search = (props) => {
 	const [major, setMajor] = useState([]);
 	const [position, setPosition] = useState([]);
 	const [industry, setIndustry] = useState([]);
@@ -37,7 +37,10 @@ export const Search = () => {
 				<InputLabel>
 					Search Companies
 				</InputLabel>
-				<Input startAdornment = { search } />
+				<Input
+					startAdornment = { search }
+					onChange = { (e) => props.input(e) }
+				/>
 		  </FormControl>
 		);
 	};
@@ -61,6 +64,7 @@ export const Search = () => {
 					{ filterItems.map(item => (
 						<MenuItem key = { item } value = { item }>
 							<Checkbox checked = { states[index].state.indexOf(item) > -1 } />
+							{ console.log(states) }
 							<ListItemText primary = { item } />
 						</MenuItem>
 					)) }
