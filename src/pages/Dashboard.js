@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Cards, Search } from '../components';
+import { Admin } from './Admin';
 import '../styles/Dashboard.scss';
 import Logo from '../assets/shpe/transparentBbq.png';
-import { Admin } from './Admin';
+import day2Icon from '../assets/icons/day2.svg';
 
 export const Dashboard = () => {
 	const [activeTab, setActiveTab] = useState('dayOne');
@@ -25,7 +26,8 @@ export const Dashboard = () => {
 					</div>
 				</ul>
 				<div className = 'meta'>
-					<span> SHPEUCF </span>
+					 Brought to you by <br></br>
+					 <a className = 'ref' target = '_blank' href = 'https://tech.shpeucf.com/' > SHPE UCF Tech Committee</a>
 				</div>
 			</div>
 		);
@@ -39,10 +41,11 @@ export const Dashboard = () => {
 					<div className = 'upperNav'>
 						<Search />
 					</div>
-					{ activeTab === 'admin' ? <Admin /> : <Cards data = { activeTab } search = '' /> }
+					<div className = 'mainContent'>
+						{ activeTab === 'admin' ? <Admin /> : <Cards data = { activeTab } search = '' /> }
+					</div>
 				</div>
 			</div>
-			<div className = 'bottomBar' />
 		</div>
 	);
 };

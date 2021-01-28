@@ -30,13 +30,13 @@ body {
 }
 
 .App {
-  height: calc(100vh - 70px);
+  height: 100vh;
   background: $greyLight;
   display: flex;
 }
 
 .navBar {
-  width: 13%;
+  width: 14%;
   height: 100%;
   background: $greyDark;
   padding: 10px 10px 0;
@@ -91,8 +91,9 @@ body {
     text-align: center;
     margin-top: auto;
     padding: 1rem;
-    span {
-      display: block;
+    .ref {
+      color: #bd9e06;
+      text-decoration: none;
     }
   }
 }
@@ -105,16 +106,19 @@ body {
 
 .bottomBar {
   background: $greyLighter;
-  text-align: center;
   height: 70px;
   width: 100vw;
   display: flex;
-  align-items: center;
   justify-content: center;
-  color: white;
   z-index: 2;
   position: relative;
   border-top: 1px solid $greyDark;
+  .bottomText {
+    color: white;
+    font-family: Poppins-Light;
+    font-size: 0.9rem;
+    padding-top: 10px;
+  }
 }
 
 .upperNav {
@@ -135,6 +139,9 @@ body {
   overflow-y: scroll;
   position: relative;
   padding-top: 3.4rem;
+  .mainContent {
+    padding-left: 3.5rem;
+  }
 }
 
 .search {
@@ -143,7 +150,7 @@ body {
 
 .search-filter {
   position: relative !important;
-  color: rgb(255, 255, 255) !important;
+  color: white !important;
   width: 12% !important;
   min-width: 200 !important;
   margin-left: 5% !important;
