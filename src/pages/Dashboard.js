@@ -6,6 +6,9 @@ import { Admin } from './Admin';
 
 export const Dashboard = () => {
 	const [activeTab, setActiveTab] = useState('dayOne');
+	const [searchInput, setSearchInput] = useState('');
+
+	let handleSearch = (e) => { setSearchInput(e.target.value) };
 
 	const Nav = () => {
 		return (
@@ -37,9 +40,11 @@ export const Dashboard = () => {
 				{ Nav() }
 				<div className = 'main'>
 					<div className = 'upperNav'>
-						<Search />
+						<Search input = { handleSearch } />
 					</div>
-					{ activeTab === 'admin' ? <Admin /> : <Cards data = { activeTab } search = '' /> }
+					{ activeTab === 'admin' ? <Admin />
+						: <Cards data = { activeTab } search = { searchInput } />
+					}
 				</div>
 			</div>
 			<div className = 'bottomBar' />
