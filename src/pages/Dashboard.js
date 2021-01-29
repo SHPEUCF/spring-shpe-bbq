@@ -7,8 +7,10 @@ import { Admin } from './Admin';
 export const Dashboard = () => {
 	const [activeTab, setActiveTab] = useState('dayOne');
 	const [searchInput, setSearchInput] = useState('');
-
-	let handleSearch = (e) => { setSearchInput(e.target.value) };
+	const [filterInput, setFilterInput] = useState({});
+	// filterInput = { major: [], position: [], industry: [] };
+	let handleSearch = (e) => setSearchInput(e.target.value);
+	let handleFilter = (tags) => setFilterInput(tags);
 
 	const Nav = () => {
 		return (
@@ -40,10 +42,11 @@ export const Dashboard = () => {
 				{ Nav() }
 				<div className = 'main'>
 					<div className = 'upperNav'>
-						<Search input = { handleSearch } />
+						<Search input = { handleSearch } filters = { handleFilter } />
 					</div>
-					{ activeTab === 'admin' ? <Admin />
-						: <Cards data = { activeTab } search = { searchInput } />
+					{ activeTab === 'admin'
+						? <Admin />
+						: <Cards data = { activeTab } search = { searchInput } tags = { filterInput } />
 					}
 				</div>
 			</div>
