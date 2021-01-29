@@ -14,7 +14,7 @@ import {
 	Select
 } from '@material-ui/core/';
 
-export const Search = (props) => {
+export const Search = ({ input, filters }) => {
 	const [major, setMajor] = useState([]);
 	const [position, setPosition] = useState([]);
 	const [industry, setIndustry] = useState([]);
@@ -34,28 +34,28 @@ export const Search = (props) => {
 
 		return (
 			<FormControl className = 'search'>
-				<InputLabel>
-					Search Companies
-				</InputLabel>
-				<Input
-					startAdornment = { search }
-					onChange = { (e) => props.input(e) }
-				/>
+				<InputLabel>Search Companies</InputLabel>
+				<Input startAdornment = { search } onChange = { text => input(text) } />
 		  </FormControl>
 		);
 	};
+
+	// const handle
 
 	const renderFilters = () => searchFilters.map((filterType, index) => {
 		let [filterTitle, filterItems] = Object.entries(filterType)[0];
 
 		return (
-			<FormControl className = 'search-filter'>
+			<FormControl className = 'search-filter' key = { index }>
 				<InputLabel>
 					{ filterTitle }
 				</InputLabel>
 				<Select
 					value = { states[index].state }
-					onChange = { event => states[index].set(event.target.value) }
+					onChange = { event => {
+						states[index].set(event.target.value);
+						filters({ major, position, industry, [filterTitle.toLowerCase()]: event.target.value });
+					} }
 					input = { <Input /> }
 					renderValue = { selected => selected.join(', ') }
 					multiple
@@ -64,11 +64,10 @@ export const Search = (props) => {
 					{ filterItems.map(item => (
 						<MenuItem key = { item } value = { item }>
 							<Checkbox checked = { states[index].state.indexOf(item) > -1 } />
-							{ console.log(states) }
 							<ListItemText primary = { item } />
 						</MenuItem>
 					)) }
-				</Select>
+				</Select >
 			</FormControl>
 		);
 	});

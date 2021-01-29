@@ -16,7 +16,7 @@ import {
 	Typography
 } from '@material-ui/core/';
 
-export const Cards = ({ data, search }) => {
+export const Cards = ({ data, search, tags }) => {
 	const [show, setShow] = useState(false);
 	const [selectedCompany, setSelectedCompany] = useState('');
 
@@ -48,8 +48,15 @@ export const Cards = ({ data, search }) => {
 
 	const renderDay = () => {
 		let day = (data === 'dayOne') ? dayOneData : dayTwoData;
-		let filterCompanies = day.filter(({ companyName }) =>
-			companyName.toLowerCase().indexOf(search.toLowerCase()) !== -1);
+		let filterCompanies = day.filter(({ companyName }) => {
+			const filters = ['major', 'industry', 'position'];
+
+			return companyName.toLowerCase().indexOf(search.toLowerCase()) !== -1
+				&& (filters.every(filter => !tags[filter]
+					|| tags[filter].length === 0
+					|| tags[filter].some(tag => companyData[companyName][filter].includes(tag)))
+				);
+		});
 
 		return (
 			<Grid container className = 'layout'>
