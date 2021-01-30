@@ -4,7 +4,9 @@ import '../styles/Admin.scss';
 export const Admin = () => {
 	return (
 		<div className = 'App'>
-			<h1 className = 'text'> Admin Page </h1>
+			<div className = 'loginForm'>
+				<p className = 'text'> Coming Soon... </p>
+			</div>
 		</div>
 	);
 };

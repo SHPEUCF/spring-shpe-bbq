@@ -8,15 +8,15 @@ export const Dashboard = () => {
 	const [activeTab, setActiveTab] = useState('dayOne');
 	const [searchInput, setSearchInput] = useState('');
 	const [filterInput, setFilterInput] = useState({});
-	// filterInput = { major: [], position: [], industry: [] };
+
 	let handleSearch = (e) => setSearchInput(e.target.value);
 	let handleFilter = (tags) => setFilterInput(tags);
 
 	const Nav = () => {
 		return (
 			<div className = 'navBar'>
-				<div className = 'logo'>
-					<img src = { Logo } alt = 'SHPE Industy BBQ' width = '150' height = '80'></img>
+				<div className = 'logoContainer'>
+					<img className = 'logo' src = { Logo } alt = 'SHPE Industy BBQ'></img>
 				</div>
 				<ul>
 					<div onClick = { () => setActiveTab('dayOne') }>
@@ -29,9 +29,9 @@ export const Dashboard = () => {
 						<li className = { activeTab === 'admin' ? 'active' : '' }> Admin </li>
 					</div>
 				</ul>
-				<div className = 'meta'>
+				<div id = 'fadeshow1' className = 'meta'>
 					 Brought to you by <br></br>
-					 <a className = 'ref' target = '_blank' href = 'https://tech.shpeucf.com/' > SHPE UCF Tech Committee</a>
+					 <a className = 'ref' target = '_blank' href = 'https://github.com/SHPEUCF/' > SHPE UCF Tech Committee</a>
 				</div>
 			</div>
 		);
@@ -45,10 +45,12 @@ export const Dashboard = () => {
 					<div className = 'upperNav'>
 						<Search input = { handleSearch } filters = { handleFilter } />
 					</div>
-					{ activeTab === 'admin'
-						? <Admin />
-						: <Cards data = { activeTab } search = { searchInput } tags = { filterInput } />
-					}
+					<div className = 'mainContent'>
+						{ activeTab === 'admin'
+							? <Admin />
+							: <Cards data = { activeTab } search = { searchInput } tags = { filterInput } />
+						}
+					</div>
 				</div>
 			</div>
 		</div>
