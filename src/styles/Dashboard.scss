@@ -150,3 +150,16 @@ body {
   min-width: 200 !important;
   margin-left: 5% !important;
 }
+
+.video {
+  width: 26vw;
+  height: 35vh;
+}
+
+@media only screen and (max-width: 650px) {
+  .video {
+    width: 60vw;
+    height: 35vh;
+    margin-left: -5px;
+  }
+}
