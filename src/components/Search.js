@@ -46,7 +46,7 @@ export const Search = ({ input, filters }) => {
 		let [filterTitle, filterItems] = Object.entries(filterType)[0];
 
 		return (
-			<FormControl className = 'search-filter' key = { index }>
+			<FormControl id = 'fadeshow2' className = 'search-filter' key = { index }>
 				<InputLabel>
 					{ filterTitle }
 				</InputLabel>

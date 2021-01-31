@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Cards, Search } from '../components';
 import { Admin } from './Admin';
+import Logo from '../assets/shpe/shpeucflogo_bb.svg';
 import '../styles/Dashboard.scss';
-import Logo from '../assets/shpe/transparentBbq.png';
 
 export const Dashboard = () => {
 	const [activeTab, setActiveTab] = useState('dayOne');
@@ -29,7 +29,7 @@ export const Dashboard = () => {
 						<li className = { activeTab === 'admin' ? 'active' : '' }> Admin </li>
 					</div>
 				</ul>
-				<div id = 'fadeshow1' className = 'meta'>
+				<div id = 'fadeshow' className = 'meta'>
 					 Brought to you by <br></br>
 					 <a className = 'ref' target = '_blank' href = 'https://github.com/SHPEUCF/' > SHPE UCF Tech Committee</a>
 				</div>
@@ -42,9 +42,11 @@ export const Dashboard = () => {
 			<div className = 'App'>
 				{ Nav() }
 				<div className = 'main'>
-					<div className = 'upperNav'>
-						<Search input = { handleSearch } filters = { handleFilter } />
-					</div>
+					{ activeTab !== 'admin'
+						? <div className = 'upperNav'>
+							<Search input = { handleSearch } filters = { handleFilter } />
+						</div> : null
+					}
 					<div className = 'mainContent'>
 						{ activeTab === 'admin'
 							? <Admin />
