@@ -40,8 +40,6 @@ export const Search = ({ input, filters }) => {
 		);
 	};
 
-	// const handle
-
 	const renderFilters = () => searchFilters.map((filterType, index) => {
 		let [filterTitle, filterItems] = Object.entries(filterType)[0];
 

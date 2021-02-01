@@ -52,12 +52,12 @@ export const companyData = {
 	'Gartner': {
 		img: require('../assets/images/gartnerOther.jpg'),
 		tagline: 'Make an impact every day',
-		description: 'Looking for a rewarding career, collaborative team and unlimited opportunities to grow? You’ve come to the right place.',
+		description: 'Gartner is the world\'s leading research and advisory company. We’ve expanded well beyond our flagship technology research to provide senior leaders across the enterprise with the indispensable business insights, advice and tools they need to achieve their mission-critical priorities and build the organizations of tomorrow. Together with our clients, we fuel the future of business so that a more successful world takes shape.',
 		careersLink: 'https://jobs.gartner.com/',
-		zoomLink: 'Insert Zoom Link Here',
-		major: [],
+		zoomLink: 'https://ucf.zoom.us/j/99416219556?',
+		major: ['Computer Engineering', 'Computer Science', 'Information Technology'],
 		position: [],
-		industry: []
+		industry: ['Technology']
 	},
 	'JPMorgan Chase & Co.': {
 		img: require('../assets/images/jpmcOther.jpg'),
@@ -81,23 +81,23 @@ export const companyData = {
 	},
 	'Kimley Horn': {
 		img: require('../assets/images/kimleyOther.jpg'),
-		tagline: 'Looking for a great place to start your career?',
-		description: 'At Kimley-Horn, we know that today’s entry-level candidates are highly engaged, technically adept, and that their new perspectives play an essential role in the long-term success of our firm. We search for talented individuals from colleges and universities across the country who strive for excellence, have a passion for learning, and possess an entrepreneurial spirit that complements the ever-changing needs of our clients.',
-		careersLink: 'https://www.kimley-horn.com/join-our-team/working-at-kimley-horn/students/',
-		zoomLink: 'Insert Zoom Link Here',
-		major: [],
-		position: [],
-		industry: []
+		tagline: 'Expect More. Experience Better.',
+		description: 'Ranked as one of Fortune Magazine’s “100 Best Companies to Work For” and "100 Best Workplaces for Millennials,” Kimley-Horn and Associates, Inc. prides itself on hiring high-achieving, dedicated, and reliable professionals. With staff in over 90 offices nationwide, we are one of the nation\'s premier engineering planning and design consulting firms',
+		careersLink: 'https://www.kimley-horn.com/join-our-team/working-at-kimley-horn/students',
+		zoomLink: 'https://ucf.zoom.us/j/92432754628',
+		major: ['Civil Engineering', 'Environmental Engineering'],
+		position: ['Internship', 'Full Time'],
+		industry: ['Consulting']
 	},
 	'Lockheed Martin': {
 		img: require('../assets/images/lockheedOther.jpg'),
-		tagline: 'Lockheed Martin. Your Mission is Ours.',
-		description: 'We solve complex challenges, advance scientific discovery and deliver innovative solutions to help our customers keep people safe.',
+		tagline: 'Your Mission is Ours.',
+		description: 'Our Mission is to solve complex challenges, advance scientific discovery and deliver innovative solutions to help our customers keep people safe. Our vision is to be the global leader in supporting our customers\' missions, strengthening security and advancing scientific discovery.',
 		careersLink: 'https://www.lockheedmartinjobs.com/',
-		zoomLink: 'Insert Zoom Link Here',
-		major: [],
+		zoomLink: 'https://ucf.zoom.us/j/95254729083',
+		major: ['Aerospace Engineering', 'Computer Engineering', 'Computer Science', 'Electrical Engineering', 'Industrial Engineering', 'Mechanical Engineering'],
 		position: [],
-		industry: []
+		industry: ['Aerospace', 'Technology', 'Defense']
 	},
 	'PwC': {
 		img: require('../assets/images/pwcOther.jpg'),
@@ -114,20 +114,20 @@ export const companyData = {
 		tagline: 'The Sandia intern experience — meaningful work and enjoyable play',
 		description: 'Are you looking for research experience with top scientists/engineers? Would you like an employer-paid graduate degree? Sandia welcomes student interns, co-ops, and postdoctoral fellows. We provide world-class mentoring and opportunities to research issues of global significance. Sandia is the perfect place to jump-start your career.',
 		careersLink: 'https://www.sandia.gov/careers/students_postdocs/',
-		zoomLink: 'Insert Zoom Link Here',
+		zoomLink: 'https://ucf.zoom.us/j/92556346076',
 		major: [],
 		position: [],
 		industry: []
 	},
 	'Texas Instruments': {
 		img: require('../assets/images/tiOther.jpg'),
-		tagline: 'Why choose TI',
-		description: 'At Texas Instruments, competitive pay is just the beginning. Our vibrant culture is based on our values of being trustworthy, inclusive, innovative, competitive and results-oriented. We offer a variety of benefits that help you and your family thrive.',
+		tagline: 'Come change the world with us. To learn more about TI’s career opportunities, visit careers.ti.com!',
+		description: 'Texas Instruments’ products power the world. As one of the world’s largest global leaders in analog and digital semiconductor design and manufacturing, TI provides the technologies that fuel smartphones, digital cameras, medical equipment, motor controls, ultra-thin computing devices, health and fitness products, and much more.',
 		careersLink: 'https://careers.ti.com/',
 		zoomLink: 'Insert Zoom Link Here',
-		major: [],
-		position: [],
-		industry: []
+		major: ['Computer Engineering', 'Computer Science', 'Electrical Engineering', 'Industrial Engineering', 'Mechanical Engineering', 'Information Technology'],
+		position: ['Full Time', 'Internship'],
+		industry: ['Technology']
 	},
 	'Thales': {
 		img: require('../assets/images/thalesOther.jpg'),
@@ -151,13 +151,13 @@ export const companyData = {
 	},
 	'Disney': {
 		img: require('../assets/images/disneyOther.jpg'),
-		tagline: 'Where will your story begin?',
+		tagline: 'Create a Lasting Impact',
 		description: 'The Walt Disney Company entertains, informs and inspires people around the globe through the power of unparalleled storytelling, reflecting the iconic brands, creative minds and innovative technologies families have come to love for over 90 years. Whether you’re looking to create magic in our Parks and Resorts, support business growth and development, work behind-the-scenes on your favorite TV shows or upcoming movies, or anything in-between, this is your opportunity to start the next chapter of your career story and help create the exhilarating experiences Disney is known for worldwide.',
 		careersLink: 'https://jobs.disneycareers.com/',
-		zoomLink: 'Insert Zoom Link Here',
+		zoomLink: 'https://ucf.zoom.us/j/92836234899',
 		major: [],
 		position: [],
-		industry: []
+		industry: ['Entertainment']
 	},
 	'Enercon': {
 		img: require('../assets/images/enerconOther.jpg'),
@@ -171,23 +171,23 @@ export const companyData = {
 	},
 	'Facebook': {
 		img: require('../assets/images/facebookOther.jpg'),
-		tagline: 'Do the Most Meaningful Work of Your Career',
-		description: 'At Facebook, we’re bringing the world closer together. But we’re just getting started—as we like to say, the journey is just 1% finished. Join us to begin your own.',
-		careersLink: 'https://www.facebook.com/careers/',
+		tagline: 'Bringing the world closer together',
+		description: 'Want to build new features and products that touch more than a billion people around the world? Want to build new features that improve existing products like Photos, Groups, NewsFeed, Search, and Messaging? Want to solve unique, large-scale, highly complex technical problems? Our development cycle is extremely fast, and we\'ve built tools to keep it that way. It\'s common to write code and have it running live on the site hours later. If you work for us you will make an impact, immediately. ',
+		careersLink: 'https://www.facebook.com/careers/v2/jobs/654496918442526/',
 		zoomLink: 'Insert Zoom Link Here',
-		major: [],
-		position: [],
-		industry: []
+		major: ['Computer Science', 'Computer Engineering', 'Information Technology'],
+		position: ['Internship'],
+		industry: ['Technology']
 	},
 	'Google': {
 		img: require('../assets/images/googleOther.jpg'),
-		tagline: 'Create, Design, Code, Build, for everyone',
-		description: 'Our mission is to organize the world’s information and make it universally accessible and useful.',
+		tagline: 'Search On',
+		description: 'Committed to significantly improving the lives of as many people as possible.',
 		careersLink: 'https://careers.google.com/jobs/',
 		zoomLink: 'Insert Zoom Link Here',
-		major: [],
+		major: ['Computer Science', 'Computer Engineering', 'Electrical Engineering', 'Information Technology'],
 		position: [],
-		industry: []
+		industry: ['Technology']
 	},
 	'IBM': {
 		img: require('../assets/images/ibmOther.jpg'),
@@ -214,10 +214,40 @@ export const companyData = {
 		tagline: 'Why John Deere',
 		description: "If you strive to do great work, excel in creative environments, thrive in teams, and live for problem solving — this is the place for you. At John Deere, your ideas, experiences, and values matter. And, you're rewarded in ways that matter: through opportunities for career growth; through experiences in an inclusive, diverse culture; and, yes, through outstanding compensation and benefits programs. Why work at John Deere? Why anywhere else?",
 		careersLink: 'https://www.deere.com/en/our-company/john-deere-careers/',
-		zoomLink: 'Insert Zoom Link Here',
+		zoomLink: 'https://ucf.zoom.us/j/95177252546',
 		major: [],
 		position: [],
 		industry: []
+	},
+	'CDM Smith': {
+		img: require('../assets/images/cdm-smith-other.jpg'),
+		tagline: 'Why CDM Smith',
+		description: "CDM Smith is a global privately owned engineering and construction firm providing legendary client service and smart solutions in water, environment, transportation, energy and facilities. In 1947, CDM Smith was founded with a commitment to maintain the constant pursuit of excellence, placing responsibility to our clients second only to responsibility to the public. By staying true to this promise for more than 70 years, we’ve forged tremendous, long-standing relationships, believing responsiveness is the foundation of serving our clients.",
+		careersLink: 'https://cdmsmith.com/en/Careers',
+		zoomLink: 'https://ucf.zoom.us/j/92222623135',
+		major: ['Mechanical Engineering', 'Civil Engineering'],
+		position: [],
+		industry: []
+	},
+	'Deloitte': {
+		img: require('../assets/images/deloitteOther.jpg'),
+		tagline: 'Why Deloitte',
+		description: "Look to your future. And find impact. However you look to make your impact on the world—through technology, business, finance, human capital, social change, or pure invention—Deloitte has opportunities that can help you make it happen.",
+		careersLink: 'https://www2.deloitte.com/us/en/careers/students.html?icid=top_students',
+		zoomLink: 'https://ucf.zoom.us/j/92375158012',
+		major: [],
+		position: [],
+		industry: []
+	},
+	'Epic': {
+		img: require('../assets/images/epicOther.jpg'),
+		tagline: 'Why Epic?',
+		description: "As a global leader in the development of software for healthcare organizations, Epic is driving change for an entire industry – one that affects the quality of life for everyone. Our team collaborates with some of the world’s most respected healthcare organizations to improve both individual patient care and the health of entire communities",
+		careersLink: 'https://careers.epic.com/?utm_source=epiccomfooter&utm_campaign=tocareers',
+		zoomLink: 'https://ucf.zoom.us/j/92375158012',
+		major: ['Computer Science', 'Computer Engineering'],
+		position: [],
+		industry: ['Technology']
 	},
 	'Kiewitt': {
 		img: require('../assets/images/kiewitOther.jpg'),
@@ -241,13 +271,13 @@ export const companyData = {
 	},
 	'Collins Aerospace': {
 		img: require('../assets/images/collinsOther.jpg'),
-		tagline: 'Why Collins',
-		description: 'With nearly 300 global sites, we attract professionals from around the world who are as intrigued as we are about the possibilities of aerospace and defense. Our workplaces are where people from different backgrounds, experiences and perspectives unite. Together, we create breakthroughs far superior to anything that might be accomplished alone. That’s the power of people, working shoulder-to-shoulder, on a global stage.',
+		tagline: 'Aerospace Redefined',
+		description: 'At Collins Aerospace, we’re working side-by-side with customers to unleash the exciting possibilities we see before us. With a comprehensive portfolio, extensive capabilities and broad expertise, we’re crafting intelligent solutions to meet the demands of a rapidly evolving global market – all representing the best in innovation and technology for the industries we serve.',
 		careersLink: 'https://jobs.collinsaerospace.com/',
 		zoomLink: 'Insert Zoom Link Here',
-		major: [],
+		major: ['Aerospace Engineering', 'Computer Engineering', 'Computer Science', 'Electrical Engineering'],
 		position: [],
-		industry: []
+		industry: ['Aerospace', 'Technology', 'Defense']
 	},
 	'Jacobs': {
 		img: require('../assets/images/jacobsOther.jpg'),

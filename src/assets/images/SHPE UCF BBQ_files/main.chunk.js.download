@@ -1,0 +1,2280 @@
+(this["webpackJsonpspring-shpe-bbq"] = this["webpackJsonpspring-shpe-bbq"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Admin.scss":
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/styles/Admin.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".loginForm {\n  margin: 0;\n  position: absolute;\n  top: 50%;\n  left: 48%;\n  transform: translate(-50%, -50%);\n  background-color: #282828;\n  padding: 3.5rem;\n  border-radius: 20px; }\n\n.text {\n  color: white;\n  font-family: Poppins-Thin;\n  font-size: 4vh;\n  text-align: center; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Cards.scss":
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/styles/Cards.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "body {\n  background-color: black; }\n\n#home .cards {\n  width: 250px;\n  height: 350px;\n  margin: 30px;\n  color: grey; }\n\n@media only screen and (max-width: 450px) {\n  #home .cards {\n    width: 100%;\n    height: 100%;\n    margin-top: 10;\n    margin-right: 0;\n    margin-left: 0;\n    transform: translate(-15%, 0%);\n    color: grey; }\n  #home .cardText {\n    display: none; } }\n\n#home .cardText {\n  font-family: Poppins-Regular;\n  color: grey;\n  font-size: 13px;\n  text-align: center; }\n\n.cards img {\n  height: 70%;\n  width: 100%; }\n\n#img {\n  height: 100%;\n  width: 100%;\n  overflow: hidden; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Dashboard.scss":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/styles/Dashboard.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".uppercase {\n  text-transform: uppercase; }\n\n.smallText {\n  font-size: 0.75rem;\n  letter-spacing: 0.8px; }\n  .smallText.bold {\n    font-weight: 600; }\n\n* {\n  box-sizing: border-box; }\n\nbody {\n  font-family: Poppins-Regular; }\n\n.subText {\n  font-size: 0.9rem;\n  color: #b3b3b3; }\n\n.App {\n  height: 100vh;\n  background: #131313;\n  display: flex; }\n\n.navBar {\n  width: 14%;\n  min-width: 100px;\n  height: 100%;\n  background: #040404;\n  padding: 10px 10px 0;\n  display: flex;\n  flex-direction: column; }\n  .navBar .logoContainer {\n    margin-top: -10%;\n    margin-bottom: -20%; }\n    .navBar .logoContainer .logo {\n      height: 90%;\n      width: 100%; }\n  .navBar ul {\n    margin: 0;\n    padding: 0; }\n    .navBar ul li {\n      color: white;\n      list-style-type: none;\n      border-radius: 5px;\n      padding: 0.5rem 0.8rem;\n      font-size: 2vh;\n      cursor: pointer;\n      transition: all 0.3s ease-in-out;\n      font-family: Poppins-Regular;\n      display: flex;\n      align-items: center; }\n      .navBar ul li svg {\n        fill: currentColor;\n        margin-right: 15px; }\n      .navBar ul li.active {\n        background: #282828;\n        color: #FFC107; }\n        .navBar ul li.active svg {\n          fill: white; }\n      .navBar ul li:hover {\n        color: #FFC107; }\n  .navBar .meta {\n    font-size: 1.2vh;\n    color: #b3b3b3;\n    text-align: center;\n    margin-top: auto;\n    padding: 1rem; }\n    .navBar .meta .ref {\n      color: #FFC107;\n      text-decoration: none; }\n\n@media only screen and (max-width: 1026px) {\n  #fadeshow {\n    display: none; } }\n\n@media only screen and (max-width: 650px) {\n  #fadeshow2 {\n    display: none; } }\n\n.outerWrap {\n  background: grey;\n  height: 100vh;\n  min-height: 100%; }\n\n.upperNav {\n  background: rgba(255, 255, 255, 0.883);\n  height: 8%;\n  min-height: 70px;\n  width: 100%;\n  display: absolute;\n  align-items: center;\n  color: white;\n  padding: 0.5% 1.4%;\n  position: fixed;\n  top: 0;\n  z-index: 2; }\n\n.main {\n  width: 100%;\n  overflow-y: scroll;\n  position: relative;\n  padding-top: 3.4rem; }\n  .main .mainContent {\n    padding-left: 3.4rem; }\n\n.search {\n  margin-left: 5% !important; }\n\n.search-filter {\n  position: relative !important;\n  color: white !important;\n  width: 12% !important;\n  min-width: 200 !important;\n  margin-left: 5% !important; }\n\n.video {\n  width: 26vw;\n  height: 35vh; }\n\n@media only screen and (max-width: 650px) {\n  .video {\n    width: 60vw;\n    height: 35vh;\n    margin-left: -5px; } }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./assets/fonts/Poppins-Bold.ttf */ "./src/assets/fonts/Poppins-Bold.ttf");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./assets/fonts/Poppins-SemiBold.ttf */ "./src/assets/fonts/Poppins-SemiBold.ttf");
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ./assets/fonts/Poppins-Regular.ttf */ "./src/assets/fonts/Poppins-Regular.ttf");
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ./assets/fonts/Poppins-Light.ttf */ "./src/assets/fonts/Poppins-Light.ttf");
+var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(/*! ./assets/fonts/Poppins-Thin.ttf */ "./src/assets/fonts/Poppins-Thin.ttf");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);
+// Module
+exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n\n@font-face {\n  font-family: 'Poppins-Bold';\n  src: local('Poppins-Bold'), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ")format('truetype');\n}\n\n@font-face {\n  font-family: 'Poppins-SemiBold';\n  src: local('Poppins-SemiBold'), url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ")format('truetype');\n}\n\n@font-face {\n  font-family: 'Poppins-Regular';\n  src: local('Poppins-Regular'), url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ")format('truetype');\n}\n\n@font-face {\n  font-family: 'Poppins-Light';\n  src: local('Poppins-Light'), url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ")format('truetype');\n}\n\n@font-face {\n  font-family: 'Poppins-Thin';\n  src: local('Poppins-Thin'), url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ")format('truetype');\n}\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pages__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages */ "./src/pages/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "/mnt/c/Users/Owner/Desktop/Tech/Shpe/bbq/spring-shpe-bbq/src/App.js";
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (() => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 2
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 3
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+  path: "/",
+  exact: true,
+  component: _pages__WEBPACK_IMPORTED_MODULE_1__["Dashboard"],
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 4
+  }
+}))));
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Poppins-Bold.ttf":
+/*!*******************************************!*\
+  !*** ./src/assets/fonts/Poppins-Bold.ttf ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Poppins-Bold.c23534ac.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Poppins-Light.ttf":
+/*!********************************************!*\
+  !*** ./src/assets/fonts/Poppins-Light.ttf ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Poppins-Light.2a47a29c.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Poppins-Regular.ttf":
+/*!**********************************************!*\
+  !*** ./src/assets/fonts/Poppins-Regular.ttf ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Poppins-Regular.41e8dead.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Poppins-SemiBold.ttf":
+/*!***********************************************!*\
+  !*** ./src/assets/fonts/Poppins-SemiBold.ttf ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Poppins-SemiBold.342ba3d8.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Poppins-Thin.ttf":
+/*!*******************************************!*\
+  !*** ./src/assets/fonts/Poppins-Thin.ttf ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Poppins-Thin.c0fafa83.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/images/accentureLogo.jpg":
+/*!*********************************************!*\
+  !*** ./src/assets/images/accentureLogo.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/accentureLogo.fd01cf29.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/accentureOther.jpg":
+/*!**********************************************!*\
+  !*** ./src/assets/images/accentureOther.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/accentureOther.1ff932bf.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/aerionOther.png":
+/*!*******************************************!*\
+  !*** ./src/assets/images/aerionOther.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/aerionOther.e8eea22e.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/capcoOther.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/capcoOther.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/capcoOther.31e2f6f4.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/cdm-smith-other.jpg":
+/*!***********************************************!*\
+  !*** ./src/assets/images/cdm-smith-other.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/cdm-smith-other.89fa2267.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/cdmsmithLogo.png":
+/*!********************************************!*\
+  !*** ./src/assets/images/cdmsmithLogo.png ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/cdmsmithLogo.47c4329f.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/collinsLogo.jpeg":
+/*!********************************************!*\
+  !*** ./src/assets/images/collinsLogo.jpeg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/collinsLogo.1150e12d.jpeg";
+
+/***/ }),
+
+/***/ "./src/assets/images/collinsOther.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/images/collinsOther.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/collinsOther.b5aa2284.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/datisOther.jpeg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/datisOther.jpeg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/datisOther.d096eb31.jpeg";
+
+/***/ }),
+
+/***/ "./src/assets/images/deloitteLogo.png":
+/*!********************************************!*\
+  !*** ./src/assets/images/deloitteLogo.png ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/deloitteLogo.690d7b59.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/deloitteOther.jpg":
+/*!*********************************************!*\
+  !*** ./src/assets/images/deloitteOther.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/deloitteOther.10c20724.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/deloittel.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/deloittel.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/deloittel.d045b078.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/disneyLogo.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/disneyLogo.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/disneyLogo.a5998246.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/disneyOther.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/disneyOther.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/disneyOther.dc5e6a31.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/embrearOther.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/images/embrearOther.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/embrearOther.bf5ae029.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/enerconLogo.png":
+/*!*******************************************!*\
+  !*** ./src/assets/images/enerconLogo.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/enerconLogo.facb9967.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/enerconOther.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/images/enerconOther.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/enerconOther.0b8c5d58.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/epic-systems-corporation-vector-logo.svg":
+/*!********************************************************************!*\
+  !*** ./src/assets/images/epic-systems-corporation-vector-logo.svg ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/epic-systems-corporation-vector-logo.c37c5dd6.svg";
+
+/***/ }),
+
+/***/ "./src/assets/images/epicOther.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/epicOther.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/epicOther.33a79e27.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/facebookOther.jpg":
+/*!*********************************************!*\
+  !*** ./src/assets/images/facebookOther.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/facebookOther.b04acc96.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/gartnerLogo.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/gartnerLogo.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/gartnerLogo.3f3aebe4.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/gartnerOther.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/images/gartnerOther.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/gartnerOther.7db1144f.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/googleLogo.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/googleLogo.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/googleLogo.85aaeba4.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/googleOther.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/googleOther.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/googleOther.514acdbf.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/ibmOther.jpg":
+/*!****************************************!*\
+  !*** ./src/assets/images/ibmOther.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/ibmOther.2fae24a0.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/intelOther.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/intelOther.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/intelOther.0ba3850c.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/jacobsOther.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/jacobsOther.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/jacobsOther.5bb625c6.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/johndeereLogo.png":
+/*!*********************************************!*\
+  !*** ./src/assets/images/johndeereLogo.png ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/johndeereLogo.4bff6ee5.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/johndeereOther.jpg":
+/*!**********************************************!*\
+  !*** ./src/assets/images/johndeereOther.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/johndeereOther.7c59811b.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/jpmcLogo.png":
+/*!****************************************!*\
+  !*** ./src/assets/images/jpmcLogo.png ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/jpmcLogo.d051d155.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/jpmcOther.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/jpmcOther.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/jpmcOther.fff615b6.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/kiewitOther.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/kiewitOther.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/kiewitOther.bec2f25c.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/kimleyLogo.png":
+/*!******************************************!*\
+  !*** ./src/assets/images/kimleyLogo.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/kimleyLogo.948ba0c8.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/kimleyOther.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/kimleyOther.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/kimleyOther.00573590.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/kscOther.jpg":
+/*!****************************************!*\
+  !*** ./src/assets/images/kscOther.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/kscOther.c5323701.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/lockheedLogo.png":
+/*!********************************************!*\
+  !*** ./src/assets/images/lockheedLogo.png ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/lockheedLogo.51c03ae4.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/lockheedOther.jpg":
+/*!*********************************************!*\
+  !*** ./src/assets/images/lockheedOther.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/lockheedOther.b2ea10db.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/microsoftOther.jpg":
+/*!**********************************************!*\
+  !*** ./src/assets/images/microsoftOther.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/microsoftOther.a9f62de6.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/navyOther.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/navyOther.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/navyOther.1bb6a598.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/pwcOther.jpg":
+/*!****************************************!*\
+  !*** ./src/assets/images/pwcOther.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/pwcOther.d4e54af9.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/sandiaLogo.png":
+/*!******************************************!*\
+  !*** ./src/assets/images/sandiaLogo.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/sandiaLogo.8910f382.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/sandiaOther.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/sandiaOther.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/sandiaOther.94f60d46.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/thalesOther.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/thalesOther.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/thalesOther.025e8184.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/tiLogo.png":
+/*!**************************************!*\
+  !*** ./src/assets/images/tiLogo.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/tiLogo.1f529fc8.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/tiOther.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/images/tiOther.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/tiOther.c3e6eec0.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/shpe/shpeucflogo_bb.svg":
+/*!********************************************!*\
+  !*** ./src/assets/shpe/shpeucflogo_bb.svg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/shpeucflogo_bb.ccfb6995.svg";
+
+/***/ }),
+
+/***/ "./src/components/Cards.js":
+/*!*********************************!*\
+  !*** ./src/components/Cards.js ***!
+  \*********************************/
+/*! exports provided: Cards */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Cards", function() { return Cards; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data */ "./src/data/index.js");
+/* harmony import */ var _styles_Cards_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Cards.scss */ "./src/styles/Cards.scss");
+/* harmony import */ var _styles_Cards_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Cards_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/ */ "./node_modules/@material-ui/core/esm/index.js");
+var _jsxFileName = "/mnt/c/Users/Owner/Desktop/Tech/Shpe/bbq/spring-shpe-bbq/src/components/Cards.js";
+
+
+
+
+const Cards = ({
+  data,
+  search,
+  tags
+}) => {
+  const [show, setShow] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+  const [selectedCompany, setSelectedCompany] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+
+  const renderDialog = () => {
+    if (selectedCompany) // eslint-disable-next-line no-var
+      var {
+        tagline,
+        img,
+        description,
+        careersLink,
+        zoomLink
+      } = _data__WEBPACK_IMPORTED_MODULE_1__["companyData"][selectedCompany];
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["Dialog"], {
+      open: show,
+      onClose: () => setShow(false),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 4
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["DialogTitle"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 5
+      }
+    }, tagline), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["DialogContent"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["DialogContent"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 6
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      id: "img",
+      src: img,
+      alt: selectedCompany.companyName,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 7
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["DialogContentText"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 6
+      }
+    }, description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["DialogActions"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["Button"], {
+      size: "small",
+      color: "primary",
+      href: careersLink,
+      target: "_blank",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 6
+      }
+    }, " Careers "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["Button"], {
+      size: "small",
+      color: "primary",
+      href: zoomLink,
+      target: "_blank",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 6
+      }
+    }, " Join Zoom "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["Button"], {
+      size: "small",
+      color: "primary",
+      onClick: () => setShow(false),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 6
+      }
+    }, " Close ")));
+  };
+
+  const renderDay = () => {
+    let day = data === 'dayOne' ? _data__WEBPACK_IMPORTED_MODULE_1__["dayOneData"] : _data__WEBPACK_IMPORTED_MODULE_1__["dayTwoData"];
+    let filterCompanies = day.filter(({
+      companyName
+    }) => {
+      const filters = ['major', 'industry', 'position'];
+      return companyName.toLowerCase().indexOf(search.toLowerCase()) !== -1 && filters.every(filter => !tags[filter] || tags[filter].length === 0 || tags[filter].some(tag => _data__WEBPACK_IMPORTED_MODULE_1__["companyData"][companyName][filter].includes(tag)));
+    });
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["Grid"], {
+      container: true,
+      className: "layout",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 4
+      }
+    }, filterCompanies.map(({
+      companyName,
+      logo,
+      shortDesc
+    }, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["Card"], {
+      className: "cards",
+      key: index,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 6
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["CardActionArea"], {
+      onClick: () => {
+        setSelectedCompany(filterCompanies[index].companyName);
+        setShow(true);
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["CardMedia"], {
+      component: "img",
+      alt: companyName,
+      image: logo,
+      title: companyName,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69,
+        columnNumber: 8
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["CardContent"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70,
+        columnNumber: 8
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_3__["Typography"], {
+      className: "cardText",
+      variant: "body1",
+      color: "textSecondary",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71,
+        columnNumber: 9
+      }
+    }, shortDesc))))));
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "home",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 3
+    }
+  }, renderDialog(), renderDay());
+};
+
+/***/ }),
+
+/***/ "./src/components/Search.js":
+/*!**********************************!*\
+  !*** ./src/components/Search.js ***!
+  \**********************************/
+/*! exports provided: Search */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Search", function() { return Search; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data */ "./src/data/index.js");
+/* harmony import */ var _styles_Dashboard_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Dashboard.scss */ "./src/styles/Dashboard.scss");
+/* harmony import */ var _styles_Dashboard_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Dashboard_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_icons_Search__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/icons/Search */ "./node_modules/@material-ui/icons/Search.js");
+/* harmony import */ var _material_ui_icons_Search__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Search__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/ */ "./node_modules/@material-ui/core/esm/index.js");
+var _jsxFileName = "/mnt/c/Users/Owner/Desktop/Tech/Shpe/bbq/spring-shpe-bbq/src/components/Search.js";
+
+
+
+
+
+const Search = ({
+  input,
+  filters
+}) => {
+  const [major, setMajor] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
+  const [position, setPosition] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
+  const [industry, setIndustry] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
+  const states = [{
+    state: major,
+    set: setMajor
+  }, {
+    state: position,
+    set: setPosition
+  }, {
+    state: industry,
+    set: setIndustry
+  }];
+
+  const renderSearch = () => {
+    let search = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["InputAdornment"], {
+      position: "start",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 4
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Search__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 5
+      }
+    }));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["FormControl"], {
+      className: "search",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 4
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["InputLabel"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 5
+      }
+    }, "Search Companies"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["Input"], {
+      startAdornment: search,
+      onChange: text => input(text),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 5
+      }
+    }));
+  };
+
+  const renderFilters = () => _data__WEBPACK_IMPORTED_MODULE_1__["searchFilters"].map((filterType, index) => {
+    let [filterTitle, filterItems] = Object.entries(filterType)[0];
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["FormControl"], {
+      id: "fadeshow2",
+      className: "search-filter",
+      key: index,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47,
+        columnNumber: 4
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["InputLabel"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 5
+      }
+    }, filterTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["Select"], {
+      value: states[index].state,
+      onChange: event => {
+        states[index].set(event.target.value);
+        filters({
+          major,
+          position,
+          industry,
+          [filterTitle.toLowerCase()]: event.target.value
+        });
+      },
+      input: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["Input"], {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57,
+          columnNumber: 16
+        }
+      }),
+      renderValue: selected => selected.join(', '),
+      multiple: true,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["ListSubheader"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 6
+      }
+    }, filterTitle), filterItems.map(item => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["MenuItem"], {
+      key: item,
+      value: item,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["Checkbox"], {
+      checked: states[index].state.indexOf(item) > -1,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 8
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_4__["ListItemText"], {
+      primary: item,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 8
+      }
+    })))));
+  });
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, renderSearch(), renderFilters());
+};
+
+/***/ }),
+
+/***/ "./src/components/index.js":
+/*!*********************************!*\
+  !*** ./src/components/index.js ***!
+  \*********************************/
+/*! exports provided: Cards, Search */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Cards__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Cards */ "./src/components/Cards.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Cards", function() { return _Cards__WEBPACK_IMPORTED_MODULE_0__["Cards"]; });
+
+/* harmony import */ var _Search__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Search */ "./src/components/Search.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Search", function() { return _Search__WEBPACK_IMPORTED_MODULE_1__["Search"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./src/data/companyData.js":
+/*!*********************************!*\
+  !*** ./src/data/companyData.js ***!
+  \*********************************/
+/*! exports provided: companyData */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "companyData", function() { return companyData; });
+const companyData = {
+  'Accenture': {
+    img: __webpack_require__(/*! ../assets/images/accentureOther.jpg */ "./src/assets/images/accentureOther.jpg"),
+    tagline: 'Come innovate with us',
+    description: 'Join our diverse group of innovators, working together to solve industries’ and organizations’ most challenging problems. Use leading-edge technologies and strategies to reinvent the way every job is done and help improve the way the world works and lives.',
+    careersLink: 'https://www.accenture.com/us-en/careers',
+    zoomLink: 'Insert Zoom Link Here',
+    major: ['Computer Science'],
+    position: ['Internship'],
+    industry: ['Aerospace']
+  },
+  'Aerion Supersonic': {
+    img: __webpack_require__(/*! ../assets/images/aerionOther.png */ "./src/assets/images/aerionOther.png"),
+    tagline: 'Join Our Team',
+    description: "We're seeking brilliant, creative, passionate, and collaborative minds. Professionals who want to help build the future and revolutionize global transportation, starting with sustainable supersonic flight.",
+    careersLink: 'https://aerionsupersonic.com/careers',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Capco': {
+    img: __webpack_require__(/*! ../assets/images/capcoOther.jpg */ "./src/assets/images/capcoOther.jpg"),
+    tagline: "Don't Just Consult. Innovate. Excel. Grow.",
+    description: 'Immerse yourself in a culture of constant learning, share knowledge with industry experts and help us bring tomorrow forward.',
+    careersLink: 'https://www.capco.com/careers',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'DATIS': {
+    img: __webpack_require__(/*! ../assets/images/datisOther.jpeg */ "./src/assets/images/datisOther.jpeg"),
+    tagline: 'MODERN, MOBILE, AND ON A MISSION',
+    description: 'Are you interested in becoming part of a growing and dynamic team that’s dedicated to providing HR tech to the organizations serving our community? If so, check out our careers site to view available positions and apply today!',
+    careersLink: 'https://datishrcloud.e3applicants.com/',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Embraer': {
+    img: __webpack_require__(/*! ../assets/images/embrearOther.jpg */ "./src/assets/images/embrearOther.jpg"),
+    tagline: 'We are a company with education etched into our DNA.',
+    description: 'The development and refinement of our professionals is essential to our Corporate Education model, which offers continued learning as a way for professionals to build on their expertise and support the growth of our business.',
+    careersLink: 'https://embraer.com/global/en/programs',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Gartner': {
+    img: __webpack_require__(/*! ../assets/images/gartnerOther.jpg */ "./src/assets/images/gartnerOther.jpg"),
+    tagline: 'Make an impact every day',
+    description: 'Gartner is the world\'s leading research and advisory company. We’ve expanded well beyond our flagship technology research to provide senior leaders across the enterprise with the indispensable business insights, advice and tools they need to achieve their mission-critical priorities and build the organizations of tomorrow. Together with our clients, we fuel the future of business so that a more successful world takes shape.',
+    careersLink: 'https://jobs.gartner.com/',
+    zoomLink: 'https://ucf.zoom.us/j/99416219556?',
+    major: ['Computer Engineering', 'Computer Science', 'Information Technology'],
+    position: [],
+    industry: ['Technology']
+  },
+  'JPMorgan Chase & Co.': {
+    img: __webpack_require__(/*! ../assets/images/jpmcOther.jpg */ "./src/assets/images/jpmcOther.jpg"),
+    tagline: "Consider if we're a fit for you",
+    description: 'We pride ourselves on our company culture based upon our core values. These five reasons articulate the firmwide promise that we deliver to our employees.',
+    careersLink: 'https://careers.jpmorgan.com/us/en/home',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Kennedy Space Center': {
+    img: __webpack_require__(/*! ../assets/images/kscOther.jpg */ "./src/assets/images/kscOther.jpg"),
+    tagline: 'Our Missions and Values',
+    description: 'There are jobs and there are careers. But at NASA, our work is more than just a profession—it’s a lifelong pursuit, a passion—and a chance to change the history of humanity. ',
+    careersLink: 'https://www.nasa.gov/careers/benefits',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Kimley Horn': {
+    img: __webpack_require__(/*! ../assets/images/kimleyOther.jpg */ "./src/assets/images/kimleyOther.jpg"),
+    tagline: 'Expect More. Experience Better.',
+    description: 'Ranked as one of Fortune Magazine’s “100 Best Companies to Work For” and "100 Best Workplaces for Millennials,” Kimley-Horn and Associates, Inc. prides itself on hiring high-achieving, dedicated, and reliable professionals. With staff in over 90 offices nationwide, we are one of the nation\'s premier engineering planning and design consulting firms',
+    careersLink: 'https://www.kimley-horn.com/join-our-team/working-at-kimley-horn/students',
+    zoomLink: 'https://ucf.zoom.us/j/92432754628',
+    major: ['Civil Engineering', 'Environmental Engineering'],
+    position: ['Internship', 'Full Time'],
+    industry: ['Consulting']
+  },
+  'Lockheed Martin': {
+    img: __webpack_require__(/*! ../assets/images/lockheedOther.jpg */ "./src/assets/images/lockheedOther.jpg"),
+    tagline: 'Your Mission is Ours.',
+    description: 'Our Mission is to solve complex challenges, advance scientific discovery and deliver innovative solutions to help our customers keep people safe. Our vision is to be the global leader in supporting our customers\' missions, strengthening security and advancing scientific discovery.',
+    careersLink: 'https://www.lockheedmartinjobs.com/',
+    zoomLink: 'https://ucf.zoom.us/j/95254729083',
+    major: ['Aerospace Engineering', 'Computer Engineering', 'Computer Science', 'Electrical Engineering', 'Industrial Engineering', 'Mechanical Engineering'],
+    position: [],
+    industry: ['Aerospace', 'Technology', 'Defense']
+  },
+  'PwC': {
+    img: __webpack_require__(/*! ../assets/images/pwcOther.jpg */ "./src/assets/images/pwcOther.jpg"),
+    tagline: 'At PwC, it starts with you',
+    description: "PwC is all about you. Your personal and professional development, your achievement, your lifelong learning, your individuality and your choices. Whether you're just starting out or an experienced professional, your future starts here.",
+    careersLink: 'https://www.pwc.com/us/en/careers.html',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Sandia National Laboratories': {
+    img: __webpack_require__(/*! ../assets/images/sandiaOther.jpg */ "./src/assets/images/sandiaOther.jpg"),
+    tagline: 'The Sandia intern experience — meaningful work and enjoyable play',
+    description: 'Are you looking for research experience with top scientists/engineers? Would you like an employer-paid graduate degree? Sandia welcomes student interns, co-ops, and postdoctoral fellows. We provide world-class mentoring and opportunities to research issues of global significance. Sandia is the perfect place to jump-start your career.',
+    careersLink: 'https://www.sandia.gov/careers/students_postdocs/',
+    zoomLink: 'https://ucf.zoom.us/j/92556346076',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Texas Instruments': {
+    img: __webpack_require__(/*! ../assets/images/tiOther.jpg */ "./src/assets/images/tiOther.jpg"),
+    tagline: 'Come change the world with us. To learn more about TI’s career opportunities, visit careers.ti.com!',
+    description: 'Texas Instruments’ products power the world. As one of the world’s largest global leaders in analog and digital semiconductor design and manufacturing, TI provides the technologies that fuel smartphones, digital cameras, medical equipment, motor controls, ultra-thin computing devices, health and fitness products, and much more.',
+    careersLink: 'https://careers.ti.com/',
+    zoomLink: 'Insert Zoom Link Here',
+    major: ['Computer Engineering', 'Computer Science', 'Electrical Engineering', 'Industrial Engineering', 'Mechanical Engineering', 'Information Technology'],
+    position: ['Full Time', 'Internship'],
+    industry: ['Technology']
+  },
+  'Thales': {
+    img: __webpack_require__(/*! ../assets/images/thalesOther.jpg */ "./src/assets/images/thalesOther.jpg"),
+    tagline: 'Careers at Thales, Building a future we can all trust',
+    description: "The opportunities at Thales are as limitless as the boundaries of engineering, science and technology. We're growing all the time and wherever we go and whatever we do, our people grow with us. We give talented and innovative individuals the chance to explore varied career paths in a challenging and rewarding international environment. We understand just how rare truly exceptional people are, so we'll invest the same innovation, time and care into your career that we put into each of our fascinating projects.",
+    careersLink: 'https://www.thalesgroup.com/en/career',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'U.S. Navy': {
+    img: __webpack_require__(/*! ../assets/images/navyOther.jpg */ "./src/assets/images/navyOther.jpg"),
+    tagline: 'OUR MISSION CONTINUES',
+    description: "In the face of an enemy, we must all stand strong. Your skills are essential to keep the Navy mission-ready. Follow the link below to find out how we've adjusted our program to keep our Future Sailors and their families safe.",
+    careersLink: 'https://www.navy.com/careers',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Disney': {
+    img: __webpack_require__(/*! ../assets/images/disneyOther.jpg */ "./src/assets/images/disneyOther.jpg"),
+    tagline: 'Create a Lasting Impact',
+    description: 'The Walt Disney Company entertains, informs and inspires people around the globe through the power of unparalleled storytelling, reflecting the iconic brands, creative minds and innovative technologies families have come to love for over 90 years. Whether you’re looking to create magic in our Parks and Resorts, support business growth and development, work behind-the-scenes on your favorite TV shows or upcoming movies, or anything in-between, this is your opportunity to start the next chapter of your career story and help create the exhilarating experiences Disney is known for worldwide.',
+    careersLink: 'https://jobs.disneycareers.com/',
+    zoomLink: 'https://ucf.zoom.us/j/92836234899',
+    major: [],
+    position: [],
+    industry: ['Entertainment']
+  },
+  'Enercon': {
+    img: __webpack_require__(/*! ../assets/images/enerconOther.jpg */ "./src/assets/images/enerconOther.jpg"),
+    tagline: 'Why Enercon',
+    description: 'ENERCON is on a mission of transformation. We have inspiring leadership, innovative teams and powerful minds working together to propel our business and transform our world.',
+    careersLink: 'https://www.enercon.com/careers/',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Facebook': {
+    img: __webpack_require__(/*! ../assets/images/facebookOther.jpg */ "./src/assets/images/facebookOther.jpg"),
+    tagline: 'Bringing the world closer together',
+    description: 'Want to build new features and products that touch more than a billion people around the world? Want to build new features that improve existing products like Photos, Groups, NewsFeed, Search, and Messaging? Want to solve unique, large-scale, highly complex technical problems? Our development cycle is extremely fast, and we\'ve built tools to keep it that way. It\'s common to write code and have it running live on the site hours later. If you work for us you will make an impact, immediately. ',
+    careersLink: 'https://www.facebook.com/careers/v2/jobs/654496918442526/',
+    zoomLink: 'Insert Zoom Link Here',
+    major: ['Computer Science', 'Computer Engineering', 'Information Technology'],
+    position: ['Internship'],
+    industry: ['Technology']
+  },
+  'Google': {
+    img: __webpack_require__(/*! ../assets/images/googleOther.jpg */ "./src/assets/images/googleOther.jpg"),
+    tagline: 'Search On',
+    description: 'Committed to significantly improving the lives of as many people as possible.',
+    careersLink: 'https://careers.google.com/jobs/',
+    zoomLink: 'Insert Zoom Link Here',
+    major: ['Computer Science', 'Computer Engineering', 'Electrical Engineering', 'Information Technology'],
+    position: [],
+    industry: ['Technology']
+  },
+  'IBM': {
+    img: __webpack_require__(/*! ../assets/images/ibmOther.jpg */ "./src/assets/images/ibmOther.jpg"),
+    tagline: 'What IBMers do',
+    description: "At IBM, work is more than a job — it's a calling. To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate. Not just to do something better, but to attempt things you've never thought possible. To lead in this new era of technology and solve some of the world's most challenging problems. Let's put smart to work.",
+    careersLink: 'https://www.ibm.com/employment/SHPE2020/',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Intel': {
+    img: __webpack_require__(/*! ../assets/images/intelOther.jpg */ "./src/assets/images/intelOther.jpg"),
+    tagline: 'Life at Intel',
+    description: 'We are on a journey to be the trusted performance leader that unleashes the potential of data. We engineer solutions for our customers’ greatest challenges with reliable, cloud to edge computing, inspired by Moore’s Law.',
+    careersLink: 'https://jobs.intel.com/page/show/careers',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'John Deere': {
+    img: __webpack_require__(/*! ../assets/images/johndeereOther.jpg */ "./src/assets/images/johndeereOther.jpg"),
+    tagline: 'Why John Deere',
+    description: "If you strive to do great work, excel in creative environments, thrive in teams, and live for problem solving — this is the place for you. At John Deere, your ideas, experiences, and values matter. And, you're rewarded in ways that matter: through opportunities for career growth; through experiences in an inclusive, diverse culture; and, yes, through outstanding compensation and benefits programs. Why work at John Deere? Why anywhere else?",
+    careersLink: 'https://www.deere.com/en/our-company/john-deere-careers/',
+    zoomLink: 'https://ucf.zoom.us/j/95177252546',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'CDM Smith': {
+    img: __webpack_require__(/*! ../assets/images/cdm-smith-other.jpg */ "./src/assets/images/cdm-smith-other.jpg"),
+    tagline: 'Why CDM Smith',
+    description: "CDM Smith is a global privately owned engineering and construction firm providing legendary client service and smart solutions in water, environment, transportation, energy and facilities. In 1947, CDM Smith was founded with a commitment to maintain the constant pursuit of excellence, placing responsibility to our clients second only to responsibility to the public. By staying true to this promise for more than 70 years, we’ve forged tremendous, long-standing relationships, believing responsiveness is the foundation of serving our clients.",
+    careersLink: 'https://cdmsmith.com/en/Careers',
+    zoomLink: 'https://ucf.zoom.us/j/92222623135',
+    major: ['Mechanical Engineering', 'Civil Engineering'],
+    position: [],
+    industry: []
+  },
+  'Deloitte': {
+    img: __webpack_require__(/*! ../assets/images/deloitteOther.jpg */ "./src/assets/images/deloitteOther.jpg"),
+    tagline: 'Why Deloitte',
+    description: "Look to your future. And find impact. However you look to make your impact on the world—through technology, business, finance, human capital, social change, or pure invention—Deloitte has opportunities that can help you make it happen.",
+    careersLink: 'https://www2.deloitte.com/us/en/careers/students.html?icid=top_students',
+    zoomLink: 'https://ucf.zoom.us/j/92375158012',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Epic': {
+    img: __webpack_require__(/*! ../assets/images/epicOther.jpg */ "./src/assets/images/epicOther.jpg"),
+    tagline: 'Why Epic?',
+    description: "As a global leader in the development of software for healthcare organizations, Epic is driving change for an entire industry – one that affects the quality of life for everyone. Our team collaborates with some of the world’s most respected healthcare organizations to improve both individual patient care and the health of entire communities",
+    careersLink: 'https://careers.epic.com/?utm_source=epiccomfooter&utm_campaign=tocareers',
+    zoomLink: 'https://ucf.zoom.us/j/92375158012',
+    major: ['Computer Science', 'Computer Engineering'],
+    position: [],
+    industry: ['Technology']
+  },
+  'Kiewitt': {
+    img: __webpack_require__(/*! ../assets/images/kiewitOther.jpg */ "./src/assets/images/kiewitOther.jpg"),
+    tagline: 'OUR CULTURE',
+    description: 'What began with two brothers and a dream has grown — 130 years later — into one of the largest construction companies in North America. Throughout Kiewit’s history, we have built roads that connect the world, dug canals to carry water to thirsty lands and bored tunnels through mountains. We build. We mine. We shape the landscape and create energy solutions. And we do it all with integrity, never compromising our ethics.',
+    careersLink: 'https://www.kiewit.com/districts/kiewit-energy-us/careers/',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Microsoft': {
+    img: __webpack_require__(/*! ../assets/images/microsoftOther.jpg */ "./src/assets/images/microsoftOther.jpg"),
+    tagline: 'At Microsoft, Our culture',
+    description: 'We will only achieve our mission if we live our culture. We start with becoming learners in all things—having a growth mindset. Then we apply that mindset to learning about our customers, being diverse and inclusive, working together as one, and—ultimately—making a difference in the world.',
+    careersLink: 'https://careers.microsoft.com/us/en',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  },
+  'Collins Aerospace': {
+    img: __webpack_require__(/*! ../assets/images/collinsOther.jpg */ "./src/assets/images/collinsOther.jpg"),
+    tagline: 'Aerospace Redefined',
+    description: 'At Collins Aerospace, we’re working side-by-side with customers to unleash the exciting possibilities we see before us. With a comprehensive portfolio, extensive capabilities and broad expertise, we’re crafting intelligent solutions to meet the demands of a rapidly evolving global market – all representing the best in innovation and technology for the industries we serve.',
+    careersLink: 'https://jobs.collinsaerospace.com/',
+    zoomLink: 'Insert Zoom Link Here',
+    major: ['Aerospace Engineering', 'Computer Engineering', 'Computer Science', 'Electrical Engineering'],
+    position: [],
+    industry: ['Aerospace', 'Technology', 'Defense']
+  },
+  'Jacobs': {
+    img: __webpack_require__(/*! ../assets/images/jacobsOther.jpg */ "./src/assets/images/jacobsOther.jpg"),
+    tagline: 'Jacobs. A world where you can.',
+    description: 'What drives you drives us as we work to build a better world – together. At Jacobs, every day is an opportunity to make the world better, more connected, more sustainable. We’re powered by more than 50,000 people across the globe who deliver innovative scientific, technical, professional and program-management solutions for public and private clients around the world.',
+    careersLink: 'https://www.jacobs.com/careers',
+    zoomLink: 'Insert Zoom Link Here',
+    major: [],
+    position: [],
+    industry: []
+  }
+};
+
+/***/ }),
+
+/***/ "./src/data/companyList.js":
+/*!*********************************!*\
+  !*** ./src/data/companyList.js ***!
+  \*********************************/
+/*! exports provided: dayOneData, dayTwoData */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dayOneData", function() { return dayOneData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dayTwoData", function() { return dayTwoData; });
+const dayOneData = [// {
+// 	companyName: 'Accenture',
+// 	logo: require('../assets/images/accentureLogo.jpg'),
+// 	shortDesc: 'Unleash your talents and apply the new, now with a career that disrupts and transforms every industry in every country.'
+// },
+// {
+// 	companyName: 'Aerion Supersonic',
+// 	logo: require('../assets/images/aerionLogo.jpg'),
+// 	shortDesc: 'Help build the future and revolutionize global transportation, starting with sustainable supersonic flight.'
+// },
+// {
+// 	companyName: 'Capco',
+// 	logo: require('../assets/images/capcoLogo.jpg'),
+// 	shortDesc: 'Capco is a global management and technology consultancy dedicated to the financial services and energy industries.'
+// },
+// {
+// 	companyName: 'DATIS',
+// 	logo: require('../assets/images/datisLogo.png'),
+// 	shortDesc: 'We’re focused on building a diverse and inclusive team to accelerate our growth and provide the best experience to our clients.'
+// },
+// {
+// 	companyName: 'Embraer',
+// 	logo: require('../assets/images/embraerLogo.png'),
+// 	shortDesc: 'We use design, imaginative engineering, and technology as the principle tools to create new perspectives, and arrive at solutions.'
+// },
+{
+  companyName: 'Gartner',
+  logo: __webpack_require__(/*! ../assets/images/gartnerLogo.jpg */ "./src/assets/images/gartnerLogo.jpg"),
+  shortDesc: 'Gartner equips executives across the enterprise to make the right decisions and stay ahead of change'
+}, // {
+// 	companyName: 'JPMorgan Chase & Co.',
+// 	logo: require('../assets/images/jpmcLogo.png'),
+// 	shortDesc: 'JPMorgan Chase & Co. is a leading global financial services firm and one of the largest banking institutions in the United States.'
+// },
+// {
+// 	companyName: 'Kennedy Space Center',
+// 	logo: require('../assets/images/kscLogo.jpg'),
+// 	shortDesc: 'We tackle each adventure with curiosity and innovation to leave an enduring impact on the world and humanity.'
+// },
+{
+  companyName: 'Kimley Horn',
+  logo: __webpack_require__(/*! ../assets/images/kimleyLogo.png */ "./src/assets/images/kimleyLogo.png"),
+  shortDesc: "One of the nation's premier planning and design engineering consultants."
+}, {
+  companyName: 'Lockheed Martin',
+  logo: __webpack_require__(/*! ../assets/images/lockheedLogo.png */ "./src/assets/images/lockheedLogo.png"),
+  shortDesc: "From green energy to aerospace, there are so many ways you can make a difference with us."
+}, // {
+// 	companyName: 'PwC',
+// 	logo: require('../assets/images/pwcLogo.png'),
+// 	shortDesc: 'We connect people with diverse backgrounds and skills to solve important problems together for our clients, our communities and the world.'
+// },
+{
+  companyName: 'Sandia National Laboratories',
+  logo: __webpack_require__(/*! ../assets/images/sandiaLogo.png */ "./src/assets/images/sandiaLogo.png"),
+  shortDesc: 'A multiprogram engineering and science laboratory operated by National Technology and Engineering Solutions of Sandia'
+}, // {
+// 	companyName: 'Texas Instruments',
+// 	logo: require('../assets/images/tiLogo.png'),
+// 	shortDesc: 'We are a global semiconductor company that designs, manufactures, tests and sells analog and embedded processing chips.'
+// },
+// {
+// 	companyName: 'Thales',
+// 	logo: require('../assets/images/thalesLogo.png'),
+// 	shortDesc: 'Global leader investing in digital innovations, connectivity, big data, artificial intelligence, cybersecurity and quantum technology.'
+// },
+// {
+// 	companyName: 'U.S. Navy',
+// 	logo: require('../assets/images/navyLogo.png'),
+// 	shortDesc: 'Transform Your Life and Become Part of Something Bigger. Learn More About Naval Careers.'
+// }
+{
+  companyName: 'Disney',
+  logo: __webpack_require__(/*! ../assets/images/disneyLogo.jpg */ "./src/assets/images/disneyLogo.jpg"),
+  shortDesc: 'Disney is always doing what’s never been done before through the power of technology and innovation.'
+}, {
+  companyName: 'John Deere',
+  logo: __webpack_require__(/*! ../assets/images/johndeereLogo.png */ "./src/assets/images/johndeereLogo.png"),
+  shortDesc: 'An American corporation that manufactures agricultural, construction, forestry machinery, diesel engines, & more.'
+}, {
+  companyName: 'CDM Smith',
+  logo: __webpack_require__(/*! ../assets/images/cdmsmithLogo.png */ "./src/assets/images/cdmsmithLogo.png"),
+  shortDesc: 'CDM Smith is an engineering and construction firm providing smart solutions in water, environment, transportation, energy and facilities.'
+}, {
+  companyName: 'Deloitte',
+  logo: __webpack_require__(/*! ../assets/images/deloitteLogo.png */ "./src/assets/images/deloitteLogo.png"),
+  shortDesc: 'Help us create, design, code, and build for everyone. Build what\'s next. Grow your career. Learn about open roles.'
+}];
+const dayTwoData = [{
+  companyName: 'Accenture',
+  logo: __webpack_require__(/*! ../assets/images/accentureLogo.jpg */ "./src/assets/images/accentureLogo.jpg"),
+  shortDesc: 'Unleash your talents and apply the new, now with a career that disrupts and transforms every industry in every country.'
+}, // {
+// 	companyName: 'Disney',
+// 	logo: require('../assets/images/disneyLogo.jpg'),
+// 	shortDesc: 'Synonymous with quality entertainment and cutting-edge technology, The Walt Disney Company impacts a global audience every day.'
+// },
+{
+  companyName: 'JPMorgan Chase & Co.',
+  logo: __webpack_require__(/*! ../assets/images/jpmcLogo.png */ "./src/assets/images/jpmcLogo.png"),
+  shortDesc: 'JPMorgan Chase & Co. is a leading global financial services firm and one of the largest banking institutions in the USA.'
+}, {
+  companyName: 'Enercon',
+  logo: __webpack_require__(/*! ../assets/images/enerconLogo.png */ "./src/assets/images/enerconLogo.png"),
+  shortDesc: 'A multi-disciplinary engineering and environmental firm focused on empowering our people and our clients.'
+}, // {
+// 	companyName: 'Facebook',
+// 	logo: require('../assets/images/facebookLogo.jpg'),
+// 	shortDesc: 'People are at the heart of every connection we build. We design products and deliver services that bring the world closer together.'
+// },
+{
+  companyName: 'Google',
+  logo: __webpack_require__(/*! ../assets/images/googleLogo.jpg */ "./src/assets/images/googleLogo.jpg"),
+  shortDesc: "Our mission is to organize the world’s information and make it universally accessible and useful."
+}, {
+  companyName: 'Deloitte',
+  logo: __webpack_require__(/*! ../assets/images/deloittel.jpg */ "./src/assets/images/deloittel.jpg"),
+  shortDesc: "Help us create, design, code, and build for everyone. Build what's next. Grow your career. Learn about open roles."
+}, {
+  companyName: 'Epic',
+  logo: __webpack_require__(/*! ../assets/images/epic-systems-corporation-vector-logo.svg */ "./src/assets/images/epic-systems-corporation-vector-logo.svg"),
+  shortDesc: 'Epic develops software to help people get well, help people stay well, and help future generations be healthier.'
+}, {
+  companyName: 'Texas Instruments',
+  logo: __webpack_require__(/*! ../assets/images/tiLogo.png */ "./src/assets/images/tiLogo.png"),
+  shortDesc: 'Come change the world with us!'
+}, // {
+// 	companyName: 'IBM',
+// 	logo: require('../assets/images/ibmLogo.png'),
+// 	shortDesc: 'Develop grand ideas for clients and help change how businesses interact with and impact the world.'
+// },
+// {
+// 	companyName: 'Intel',
+// 	logo: require('../assets/images/intelLogo.png'),
+// 	shortDesc: "Intel's innovation in cloud computing, data center, IoT, and PC solutions is powering the smart and connected digital world we live in."
+// },
+// {
+// 	companyName: 'John Deere',
+// 	logo: require('../assets/images/johndeereLogo.png'),
+// 	shortDesc: 'An American corporation that manufactures agricultural, construction, and forestry machinery, diesel engines, drivetrains & more.'
+// },
+// {
+// 	companyName: 'Kiewitt',
+// 	logo: require('../assets/images/kiewitLogo.jpg'),
+// 	shortDesc: "Start your Kiewit adventure today with one of North America's largest and most respected construction and engineering organizations."
+// },
+// {
+// 	companyName: 'Lockheed Martin',
+// 	logo: require('../assets/images/lockheedLogo.png'),
+// 	shortDesc: "Together, let's change the world for the better. From green energy to aerospace, there are so many ways you can make a difference with us."
+// },
+// {
+// 	companyName: 'Microsoft',
+// 	logo: require('../assets/images/microsoftLogo.png'),
+// 	shortDesc: 'We’re on a mission to empower every person and every organization on the planet to achieve more. Learn about open roles.'
+// },
+// {
+// 	companyName: 'PwC',
+// 	logo: require('../assets/images/pwcLogo.png'),
+// 	shortDesc: 'A global network of firms delivering world-class assurance, tax, and consulting services for your business.'
+// },
+// {
+// 	companyName: 'U.S. Navy',
+// 	logo: require('../assets/images/navyLogo.png'),
+// 	shortDesc: 'Transform Your Life and Become Part of Something Bigger. Learn More About Naval Careers.'
+// },
+{
+  companyName: 'Collins Aerospace',
+  logo: __webpack_require__(/*! ../assets/images/collinsLogo.jpeg */ "./src/assets/images/collinsLogo.jpeg"),
+  shortDesc: 'The resources to learn and grow, as well as to advance into leadership roles, are everywhere. Training programs, eLearning modules, lunch-and-learns and seminars develop skillsets and teach new ones.'
+} // {
+// 	companyName: 'Jacobs',
+// 	logo: require('../assets/images/jacobsLogo.png'),
+// 	shortDesc: 'We’re always looking for dynamic and engaged people to join our team. Bring your passion, your ingenuity and your vision. Let’s see the impact we can create, together.'
+// }
+];
+
+/***/ }),
+
+/***/ "./src/data/index.js":
+/*!***************************!*\
+  !*** ./src/data/index.js ***!
+  \***************************/
+/*! exports provided: companyData, dayOneData, dayTwoData, searchFilters */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _companyData__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./companyData */ "./src/data/companyData.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "companyData", function() { return _companyData__WEBPACK_IMPORTED_MODULE_0__["companyData"]; });
+
+/* harmony import */ var _companyList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./companyList */ "./src/data/companyList.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "dayOneData", function() { return _companyList__WEBPACK_IMPORTED_MODULE_1__["dayOneData"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "dayTwoData", function() { return _companyList__WEBPACK_IMPORTED_MODULE_1__["dayTwoData"]; });
+
+/* harmony import */ var _searchFilter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./searchFilter */ "./src/data/searchFilter.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "searchFilters", function() { return _searchFilter__WEBPACK_IMPORTED_MODULE_2__["searchFilters"]; });
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/data/searchFilter.js":
+/*!**********************************!*\
+  !*** ./src/data/searchFilter.js ***!
+  \**********************************/
+/*! exports provided: searchFilters */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "searchFilters", function() { return searchFilters; });
+const searchFilters = [{
+  Major: ['Computer Science', 'Computer Engineering', 'Electrical Engineering', 'Aerospace Engineering', 'Mechanical Engineering', 'Civil Engineering', 'Industrial Engineering', 'Information Technology']
+}, {
+  Position: ['Internship', 'Full Time']
+}, {
+  Industry: ['Entertainment', 'Aerospace', 'Defense', 'Technology', 'Finance', 'Consulting']
+}];
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_fonts_Poppins_SemiBold_ttf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/fonts/Poppins-SemiBold.ttf */ "./src/assets/fonts/Poppins-SemiBold.ttf");
+/* harmony import */ var _assets_fonts_Poppins_SemiBold_ttf__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_Poppins_SemiBold_ttf__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _assets_fonts_Poppins_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/fonts/Poppins-Regular.ttf */ "./src/assets/fonts/Poppins-Regular.ttf");
+/* harmony import */ var _assets_fonts_Poppins_Regular_ttf__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_Poppins_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _assets_fonts_Poppins_Light_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/fonts/Poppins-Light.ttf */ "./src/assets/fonts/Poppins-Light.ttf");
+/* harmony import */ var _assets_fonts_Poppins_Light_ttf__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_Poppins_Light_ttf__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_fonts_Poppins_Thin_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/fonts/Poppins-Thin.ttf */ "./src/assets/fonts/Poppins-Thin.ttf");
+/* harmony import */ var _assets_fonts_Poppins_Thin_ttf__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_Poppins_Thin_ttf__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "/mnt/c/Users/Owner/Desktop/Tech/Shpe/bbq/spring-shpe-bbq/src/index.js";
+
+
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 2
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 3
+  }
+})), document.getElementById('root'));
+
+/***/ }),
+
+/***/ "./src/pages/Admin.js":
+/*!****************************!*\
+  !*** ./src/pages/Admin.js ***!
+  \****************************/
+/*! exports provided: Admin */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Admin", function() { return Admin; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_Admin_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/Admin.scss */ "./src/styles/Admin.scss");
+/* harmony import */ var _styles_Admin_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Admin_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/mnt/c/Users/Owner/Desktop/Tech/Shpe/bbq/spring-shpe-bbq/src/pages/Admin.js";
+
+
+const Admin = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "App",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 3
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "loginForm",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 4
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 5
+    }
+  }, " Coming Soon... ")));
+};
+
+/***/ }),
+
+/***/ "./src/pages/Dashboard.js":
+/*!********************************!*\
+  !*** ./src/pages/Dashboard.js ***!
+  \********************************/
+/*! exports provided: Dashboard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Dashboard", function() { return Dashboard; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components */ "./src/components/index.js");
+/* harmony import */ var _Admin__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Admin */ "./src/pages/Admin.js");
+/* harmony import */ var _assets_shpe_shpeucflogo_bb_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/shpe/shpeucflogo_bb.svg */ "./src/assets/shpe/shpeucflogo_bb.svg");
+/* harmony import */ var _assets_shpe_shpeucflogo_bb_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_shpe_shpeucflogo_bb_svg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _styles_Dashboard_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/Dashboard.scss */ "./src/styles/Dashboard.scss");
+/* harmony import */ var _styles_Dashboard_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_Dashboard_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/ */ "./node_modules/@material-ui/core/esm/index.js");
+var _jsxFileName = "/mnt/c/Users/Owner/Desktop/Tech/Shpe/bbq/spring-shpe-bbq/src/pages/Dashboard.js";
+
+
+
+
+
+
+const Dashboard = () => {
+  const [activeTab, setActiveTab] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('dayOne');
+  const [searchInput, setSearchInput] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  const [filterInput, setFilterInput] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({});
+  const [video, setVideo] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(true);
+
+  let handleSearch = e => setSearchInput(e.target.value);
+
+  let handleFilter = tags => setFilterInput(tags);
+
+  const renderVideo = () => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 4
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_5__["Dialog"], {
+      open: video,
+      onClose: () => setVideo(false),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_5__["DialogTitle"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 6
+      }
+    }, "A Message from Our President"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_5__["DialogContent"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 6
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_5__["DialogContent"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+      className: "video",
+      src: "https://www.youtube-nocookie.com/embed/_bLta_fWIYM",
+      frameborder: "0",
+      allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+      allowfullscreen: true,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 8
+      }
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_5__["DialogActions"], {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 6
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core___WEBPACK_IMPORTED_MODULE_5__["Button"], {
+      size: "small",
+      color: "primary",
+      onClick: () => setVideo(false),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 7
+      }
+    }, "Close"))));
+  };
+
+  const Nav = () => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "navBar",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 4
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "logoContainer",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: "logo",
+      src: _assets_shpe_shpeucflogo_bb_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+      alt: "SHPE Industy BBQ",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52,
+        columnNumber: 6
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      onClick: () => setActiveTab('dayOne'),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55,
+        columnNumber: 6
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: activeTab === 'dayOne' ? 'active' : '',
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56,
+        columnNumber: 7
+      }
+    }, " Day 1 ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      onClick: () => setActiveTab('dayTwo'),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 6
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: activeTab === 'dayTwo' ? 'active' : '',
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59,
+        columnNumber: 7
+      }
+    }, " Day 2 ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      onClick: () => {
+        setActiveTab('admin');
+      },
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 6
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: activeTab === 'admin' ? 'active' : '',
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 7
+      }
+    }, " Admin "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      id: "fadeshow",
+      className: "meta",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 5
+      }
+    }, "Brought to you by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 25
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: "ref",
+      target: "_blank",
+      href: "https://github.com/SHPEUCF/",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 7
+      }
+    }, " SHPE UCF Tech Committee")));
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "outerWrap",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 3
+    }
+  }, renderVideo(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "App",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 4
+    }
+  }, Nav(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "main",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 5
+    }
+  }, activeTab !== 'admin' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "upperNav",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Search"], {
+    input: handleSearch,
+    filters: handleFilter,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 8
+    }
+  })) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mainContent",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 6
+    }
+  }, activeTab === 'admin' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Admin__WEBPACK_IMPORTED_MODULE_2__["Admin"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 10
+    }
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Cards"], {
+    data: activeTab,
+    search: searchInput,
+    tags: filterInput,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87,
+      columnNumber: 10
+    }
+  })))));
+};
+
+/***/ }),
+
+/***/ "./src/pages/index.js":
+/*!****************************!*\
+  !*** ./src/pages/index.js ***!
+  \****************************/
+/*! exports provided: Dashboard, Admin */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Dashboard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Dashboard */ "./src/pages/Dashboard.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Dashboard", function() { return _Dashboard__WEBPACK_IMPORTED_MODULE_0__["Dashboard"]; });
+
+/* harmony import */ var _Admin__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Admin */ "./src/pages/Admin.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Admin", function() { return _Admin__WEBPACK_IMPORTED_MODULE_1__["Admin"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./src/styles/Admin.scss":
+/*!*******************************!*\
+  !*** ./src/styles/Admin.scss ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./Admin.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Admin.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./Admin.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Admin.scss", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./Admin.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Admin.scss");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/styles/Cards.scss":
+/*!*******************************!*\
+  !*** ./src/styles/Cards.scss ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./Cards.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Cards.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./Cards.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Cards.scss", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./Cards.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Cards.scss");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/styles/Dashboard.scss":
+/*!***********************************!*\
+  !*** ./src/styles/Dashboard.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./Dashboard.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Dashboard.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./Dashboard.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Dashboard.scss", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--6-oneOf-5-3!../../node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./Dashboard.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/Dashboard.scss");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! /mnt/c/Users/Owner/Desktop/Tech/Shpe/bbq/spring-shpe-bbq/node_modules/webpack/hot/dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! /mnt/c/Users/Owner/Desktop/Tech/Shpe/bbq/spring-shpe-bbq/node_modules/react-dev-utils/webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! /mnt/c/Users/Owner/Desktop/Tech/Shpe/bbq/spring-shpe-bbq/src/index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",1]]]);
+//# sourceMappingURL=main.chunk.js.map

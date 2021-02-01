@@ -74,7 +74,7 @@ export const Cards = ({ data, search, tags }) => {
 							</CardContent>
 						</CardActionArea>
 					</Card>
-				) };
+				) }
 			</Grid>
 		);
 	};

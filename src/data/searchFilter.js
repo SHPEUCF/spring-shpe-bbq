@@ -7,22 +7,24 @@ export const searchFilters = [
 			'Aerospace Engineering',
 			'Mechanical Engineering',
 			'Civil Engineering',
-			'Industrial Engineering'
+			'Industrial Engineering',
+			'Information Technology'
 		]
 	},
 	{
 		Position: [
 			'Internship',
-			'Full Time',
-			'Part-Time',
-			'Contract'
+			'Full Time'
 		]
 	},
 	{
 		Industry: [
 			'Entertainment',
 			'Aerospace',
-			'Defense'
+			'Defense',
+			'Technology',
+			'Finance',
+			'Consulting'
 		]
 	}
 ]
