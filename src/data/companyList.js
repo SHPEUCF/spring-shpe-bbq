@@ -60,11 +60,13 @@ export const dayOneData = [
 	 * 	shortDesc: 'We connect people with diverse backgrounds and skills to solve important problems together for our clients, our communities and the world.'
 	 * },
 	 */
-	{
-		companyName: 'Sandia National Laboratories',
-		logo: require('../assets/images/sandiaLogo.png'),
-		shortDesc: 'A multiprogram engineering and science laboratory operated by National Technology and Engineering Solutions of Sandia'
-	},
+	/*
+	 *{
+	 *	companyName: 'Sandia National Laboratories',
+	 *	logo: require('../assets/images/sandiaLogo.png'),
+	 *	shortDesc: 'A multiprogram engineering and science laboratory operated by National Technology and Engineering Solutions of Sandia'
+	 *},
+	 */
 	/*
 	 * {
 	 * 	companyName: 'Texas Instruments',
