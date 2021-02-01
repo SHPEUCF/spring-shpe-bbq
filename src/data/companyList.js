@@ -61,13 +61,6 @@ export const dayOneData = [
 	 * },
 	 */
 	/*
-	 *{
-	 *	companyName: 'Sandia National Laboratories',
-	 *	logo: require('../assets/images/sandiaLogo.png'),
-	 *	shortDesc: 'A multiprogram engineering and science laboratory operated by National Technology and Engineering Solutions of Sandia'
-	 *},
-	 */
-	/*
 	 * {
 	 * 	companyName: 'Texas Instruments',
 	 * 	logo: require('../assets/images/tiLogo.png'),
@@ -157,6 +150,11 @@ export const dayTwoData = [
 		companyName: 'Texas Instruments',
 		logo: require('../assets/images/tiLogo.png'),
 		shortDesc: 'We design, manufacture, test and sell analog and embedded semiconductors that help our customers around the globe.'
+	},
+	{
+		companyName: 'Sandia National Laboratories',
+		logo: require('../assets/images/sandiaLogo.png'),
+		shortDesc: 'A multiprogram engineering and science laboratory operated by National Technology and Engineering Solutions of Sandia'
 	},
 	/*
 	 * {
