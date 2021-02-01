@@ -39,7 +39,7 @@ export const Dashboard = () => {
 					</DialogContent>
 					<DialogActions>
 						<Button size = 'small' color = 'primary' onClick = { () => { window.open('https://docs.google.com/forms/d/e/1FAIpQLSdhb0AG6LZeg4Kh69_XBtsbJfanxAnsAj6CMkKzKlNN8aPv9A/viewform', '_blank') } }>
-							<b>Register</b>
+							<b>Student Registration</b>
 						</Button>
 						<Button size = 'small' color = 'primary' onClick = { () => setVideo(false) }>
 							Close
