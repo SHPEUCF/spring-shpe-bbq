@@ -1,14 +1,18 @@
 export const searchFilters = [
 	{
 		Major: [
-			'Computer Science',
-			'Computer Engineering',
-			'Electrical Engineering',
 			'Aerospace Engineering',
-			'Mechanical Engineering',
 			'Civil Engineering',
+			'Computer Engineering',
+			'Computer Science',
+			'Construction Engineering',
+			'Electrical Engineering',
+			'Environmental Engineering',
 			'Industrial Engineering',
-			'Information Technology'
+			'Information Technology',
+			'Materials Science',
+			'Mechanical Engineering',
+			'Other'
 		]
 	},
 	{
@@ -24,7 +28,14 @@ export const searchFilters = [
 			'Defense',
 			'Technology',
 			'Finance',
-			'Consulting'
+			'Consulting',
+			'Manufacturing',
+			'Research',
+			'Construction',
+			'Healthcare',
+			'Energy',
+			'Transportation',
+			'Other'
 		]
 	}
 ]

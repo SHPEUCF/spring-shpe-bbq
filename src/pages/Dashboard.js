@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Cards, Search } from '../components';
 import { Admin } from './Admin';
 import Logo from '../assets/shpe/shpeucflogo_bb.svg';
+import Odi from '../assets/shpe/cecs-odi.png';
+import Services from '../assets/shpe/career-services.png';
 import '../styles/Dashboard.scss';
 import {
 	Button,
@@ -32,10 +34,13 @@ export const Dashboard = () => {
 					</DialogTitle>
 					<DialogContent>
 						<DialogContent>
-							<iframe className = 'video' src = 'https://www.youtube-nocookie.com/embed/_bLta_fWIYM' frameborder = '0' allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+							<iframe className = 'video' src = 'https://www.youtube.com/embed/f0aFnUr8vxY' frameborder = '0' allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
 						</DialogContent>
 					</DialogContent>
 					<DialogActions>
+						<Button size = 'small' color = 'primary' onClick = { () => { window.open('https://docs.google.com/forms/d/e/1FAIpQLSdhb0AG6LZeg4Kh69_XBtsbJfanxAnsAj6CMkKzKlNN8aPv9A/viewform', '_blank') } }>
+							<b>Register</b>
+						</Button>
 						<Button size = 'small' color = 'primary' onClick = { () => setVideo(false) }>
 							Close
 						</Button>
@@ -88,6 +93,11 @@ export const Dashboard = () => {
 						}
 					</div>
 				</div>
+			</div>
+			<div className = 'footer'>
+				<h3>Special Thanks to:</h3>
+				<img className = 'services' src = { Services } alt = 'career services logo'></img>
+				<img className = 'odi' src = { Odi } alt = 'ODI Logo'></img>
 			</div>
 		</div>
 	);

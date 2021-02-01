@@ -31,7 +31,7 @@ body {
 }
 
 .App {
-  height: 100vh;
+  height: calc(100vh - 70px);
   background: $greyLight;
   display: flex;
 }
@@ -156,10 +156,64 @@ body {
   height: 35vh;
 }
 
+.footer {
+  background: $greyLighter;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  z-index: 2;
+  border-top: 1px solid $greyDark;
+  padding-left: 35%;
+
+  .odi {
+    height: 70%;
+    width: 25%;
+    margin-left: 5%;
+  }
+  
+  .services {
+    height: 75%;
+    width: 15%;
+    margin-left: 5%;
+  }
+}
+
 @media only screen and (max-width: 650px) {
   .video {
     width: 60vw;
     height: 35vh;
     margin-left: -5px;
+  }
+  .footer {
+    background: $greyLighter;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    z-index: 2;
+    border-top: 1px solid $greyDark;
+    padding-left: 10%;
+
+    h3 {
+      font-size: 70%;
+    }
+  
+    .odi {
+      height: 50%;
+      width: 35%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    
+    .services {
+      height: 55%;
+      width: 30%;
+      margin-left: 5%;
+    }
   }
 }
