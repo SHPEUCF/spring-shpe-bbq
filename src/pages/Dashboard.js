@@ -63,9 +63,9 @@ export const Dashboard = () => {
 					<div onClick = { () => setActiveTab('dayTwo') }>
 						<li className = { activeTab === 'dayTwo' ? 'active' : '' }> Day 2 </li>
 					</div>
-					<div onClick = { () => { setActiveTab('admin') } }>
+					{ /* <div onClick = { () => { setActiveTab('admin') } }>
 						<li className = { activeTab === 'admin' ? 'active' : '' }> Admin </li>
-					</div>
+						</div> */ }
 				</ul>
 				<div id = 'fadeshow' className = 'meta'>
 					 Brought to you by <br></br>
