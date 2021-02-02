@@ -204,6 +204,11 @@ export const dayTwoData = [
 	 * },
 	 */
 	{
+		companyName: 'Faro',
+		logo: require('../assets/images/faro2.jpg'),
+		shortDesc: 'At FARO, we continue to invest in the innovative leaders who will shape tomorrow.'
+	},
+	{
 		companyName: 'Collins Aerospace',
 		logo: require('../assets/images/collinsLogo.jpeg'),
 		shortDesc: 'The resources to learn and grow, as well as to advance into leadership roles, are everywhere. Training programs, eLearning modules, lunch-and-learns and seminars develop skillsets and teach new ones.'

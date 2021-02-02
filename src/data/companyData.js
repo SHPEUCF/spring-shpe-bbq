@@ -109,12 +109,22 @@ export const companyData = {
 		position: ['Internship', 'Full Time'],
 		industry: []
 	},
+	'Faro': {
+		img: require('../assets/images/faroOther.jpg'),
+		tagline: 'Working at Faro',
+		description: "At FARO, we are committed to encouraging different perspectives and ideas that foster innovation. We believe that we are strongest with a diverse team of employees. We want every FARO employee to feel our commitment to showing respect for all and encouraging open collaboration and communication.",
+		careersLink: 'https://www.faro.com/about-faro/career/',
+		zoomLink: 'https://ucf.zoom.us/j/92561950451',
+		major: ['Computer Science', 'Industrial Enigeering', 'Computer Engineering', 'Mechanical Enigeering'],
+		position: ['Internship', 'Full Time'],
+		industry: ['Technology']
+	},
 	'Sandia National Laboratories': {
 		img: require('../assets/images/sandiaOther.jpg'),
 		tagline: 'The Sandia intern experience — meaningful work and enjoyable play',
 		description: 'Are you looking for research experience with top scientists/engineers? Would you like an employer-paid graduate degree? Sandia welcomes student interns, co-ops, and postdoctoral fellows. We provide world-class mentoring and opportunities to research issues of global significance. Sandia is the perfect place to jump-start your career.',
 		careersLink: 'https://www.sandia.gov/careers/students_postdocs/',
-		zoomLink: 'https://ucf.zoom.us/u/abCCUOBb8a',
+		zoomLink: 'https://ucf.zoom.us/j/98693132580',
 		major: ['Aerospace Engineering', 'Computer Engineering', 'Computer Science', 'Electrical Engineering', 'Electrical Engineering', 'Industrial Engineering', 'Mechanical Engineering', 'Information Technology', 'Materials Science', 'Other'],
 		position: ['Internship', 'Full Time'],
 		industry: ['Research', 'Technology']
