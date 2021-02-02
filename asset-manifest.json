@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.20772fb1.chunk.css",
-    "main.js": "/static/js/main.e6d4eddb.chunk.js",
-    "main.js.map": "/static/js/main.e6d4eddb.chunk.js.map",
+    "main.js": "/static/js/main.6c2e3c96.chunk.js",
+    "main.js.map": "/static/js/main.6c2e3c96.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6d153511.js",
     "runtime-main.js.map": "/static/js/runtime-main.6d153511.js.map",
-    "static/js/2.6470c27f.chunk.js": "/static/js/2.6470c27f.chunk.js",
-    "static/js/2.6470c27f.chunk.js.map": "/static/js/2.6470c27f.chunk.js.map",
+    "static/js/2.f9fa01c0.chunk.js": "/static/js/2.f9fa01c0.chunk.js",
+    "static/js/2.f9fa01c0.chunk.js.map": "/static/js/2.f9fa01c0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.beb3d9378d30b87e6b02f49388c24e1f.js": "/precache-manifest.beb3d9378d30b87e6b02f49388c24e1f.js",
+    "precache-manifest.37e0c22d0e08069599ed923f14baa5df.js": "/precache-manifest.37e0c22d0e08069599ed923f14baa5df.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.20772fb1.chunk.css.map": "/static/css/main.20772fb1.chunk.css.map",
-    "static/js/2.6470c27f.chunk.js.LICENSE.txt": "/static/js/2.6470c27f.chunk.js.LICENSE.txt",
+    "static/js/2.f9fa01c0.chunk.js.LICENSE.txt": "/static/js/2.f9fa01c0.chunk.js.LICENSE.txt",
     "static/media/GN.png": "/static/media/GN.e99db079.png",
     "static/media/index.css": "/static/media/Poppins-Bold.c23534ac.ttf",
     "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.2a47a29c.ttf",
@@ -39,6 +39,8 @@
     "static/media/epic-systems-corporation-vector-logo.svg": "/static/media/epic-systems-corporation-vector-logo.c37c5dd6.svg",
     "static/media/epicOther.jpg": "/static/media/epicOther.33a79e27.jpg",
     "static/media/facebookOther.jpg": "/static/media/facebookOther.b04acc96.jpg",
+    "static/media/faro2.jpg": "/static/media/faro2.85fe52b9.jpg",
+    "static/media/faroOther.jpg": "/static/media/faroOther.bf1faf20.jpg",
     "static/media/gartnerLogo.jpg": "/static/media/gartnerLogo.3f3aebe4.jpg",
     "static/media/gartnerOther.jpg": "/static/media/gartnerOther.7db1144f.jpg",
     "static/media/googleLogo.jpg": "/static/media/googleLogo.85aaeba4.jpg",
@@ -69,8 +71,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6d153511.js",
-    "static/js/2.6470c27f.chunk.js",
+    "static/js/2.f9fa01c0.chunk.js",
     "static/css/main.20772fb1.chunk.css",
-    "static/js/main.e6d4eddb.chunk.js"
+    "static/js/main.6c2e3c96.chunk.js"
   ]
 }

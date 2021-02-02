@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "723920d729eaf25f7ce9e56db3782739",
+    "revision": "2b42d3653ac30e32938517c647218ac6",
     "url": "/index.html"
   },
   {
-    "revision": "604b8e506dd0b5441c37",
+    "revision": "5077bda6126d49abf1eb",
     "url": "/static/css/main.20772fb1.chunk.css"
   },
   {
-    "revision": "d0e77d7b329a2e80b4a0",
-    "url": "/static/js/2.6470c27f.chunk.js"
+    "revision": "6ab7a1699183bc92c9ae",
+    "url": "/static/js/2.f9fa01c0.chunk.js"
   },
   {
     "revision": "0dc713a05373e5c9a88cb999f31ae6e4",
-    "url": "/static/js/2.6470c27f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f9fa01c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "604b8e506dd0b5441c37",
-    "url": "/static/js/main.e6d4eddb.chunk.js"
+    "revision": "5077bda6126d49abf1eb",
+    "url": "/static/js/main.6c2e3c96.chunk.js"
   },
   {
     "revision": "a0dd1aadc18e679c161d",
@@ -130,6 +130,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b04acc967b88fbd53d1cb2e4138cd187",
     "url": "/static/media/facebookOther.b04acc96.jpg"
+  },
+  {
+    "revision": "85fe52b92bc59847bd3203bec7559f69",
+    "url": "/static/media/faro2.85fe52b9.jpg"
+  },
+  {
+    "revision": "bf1faf205e4a536a4b420b223b630a58",
+    "url": "/static/media/faroOther.bf1faf20.jpg"
   },
   {
     "revision": "3f3aebe427ed1d039e872d3d23601a85",
