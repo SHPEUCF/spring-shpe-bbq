@@ -4,7 +4,7 @@ export const companyData = {
 		tagline: 'Come innovate with us',
 		description: 'Join our diverse group of innovators, working together to solve industries’ and organizations’ most challenging problems. Use leading-edge technologies and strategies to reinvent the way every job is done and help improve the way the world works and lives.',
 		careersLink: 'https://www.accenture.com/us-en/careers',
-		zoomLink: 'Insert Zoom Link Here',
+		zoomLink: 'https://ucf.zoom.us/j/99801299674',
 		major: ['Computer Science', 'Aerospace Engineering', 'Computer Engineering', 'Industrial Engineering', 'Information Technology', 'Other'],
 		position: ['Internship', 'Full Time'],
 		industry: ['Aerospace']
@@ -64,8 +64,8 @@ export const companyData = {
 		tagline: "Consider if we're a fit for you",
 		description: 'We pride ourselves on our company culture based upon our core values. These five reasons articulate the firmwide promise that we deliver to our employees.',
 		careersLink: 'https://careers.jpmorgan.com/us/en/home',
-		zoomLink: 'Insert Zoom Link Here',
-		major: [],
+		zoomLink: 'https://ucf.zoom.us/j/96251444600',
+		major: ['Computer Science'],
 		position: ['Internship', 'Full Time'],
 		industry: []
 	},
@@ -114,7 +114,7 @@ export const companyData = {
 		tagline: 'The Sandia intern experience — meaningful work and enjoyable play',
 		description: 'Are you looking for research experience with top scientists/engineers? Would you like an employer-paid graduate degree? Sandia welcomes student interns, co-ops, and postdoctoral fellows. We provide world-class mentoring and opportunities to research issues of global significance. Sandia is the perfect place to jump-start your career.',
 		careersLink: 'https://www.sandia.gov/careers/students_postdocs/',
-		zoomLink: 'https://ucf.zoom.us/j/92556346076',
+		zoomLink: 'https://ucf.zoom.us/u/abCCUOBb8a',
 		major: ['Aerospace Engineering', 'Computer Engineering', 'Computer Science', 'Electrical Engineering', 'Electrical Engineering', 'Industrial Engineering', 'Mechanical Engineering', 'Information Technology', 'Materials Science', 'Other'],
 		position: ['Internship', 'Full Time'],
 		industry: ['Research', 'Technology']
@@ -124,7 +124,7 @@ export const companyData = {
 		tagline: 'Come change the world with us!',
 		description: 'Texas Instruments’ products power the world. As one of the world’s largest global leaders in analog and digital semiconductor design and manufacturing, TI provides the technologies that fuel smartphones, digital cameras, medical equipment, motor controls, ultra-thin computing devices, health and fitness products, and much more.',
 		careersLink: 'https://careers.ti.com/',
-		zoomLink: 'Insert Zoom Link Here',
+		zoomLink: 'https://ucf.zoom.us/j/95706410374',
 		major: ['Computer Engineering', 'Computer Science', 'Electrical Engineering', 'Industrial Engineering', 'Mechanical Engineering', 'Information Technology', 'Materials Science'],
 		position: ['Full Time', 'Internship'],
 		industry: ['Technology', 'Research']
@@ -164,7 +164,7 @@ export const companyData = {
 		tagline: 'Why Enercon',
 		description: 'ENERCON is on a mission of transformation. We have inspiring leadership, innovative teams and powerful minds working together to propel our business and transform our world.',
 		careersLink: 'https://www.enercon.com/careers/',
-		zoomLink: 'Insert Zoom Link Here',
+		zoomLink: 'https://ucf.zoom.us/j/95814482278',
 		major: [],
 		position: ['Internship', 'Full Time'],
 		industry: []
@@ -184,7 +184,7 @@ export const companyData = {
 		tagline: 'Search On',
 		description: 'Committed to significantly improving the lives of as many people as possible.',
 		careersLink: 'https://careers.google.com/jobs/',
-		zoomLink: 'Insert Zoom Link Here',
+		zoomLink: 'https://ucf.zoom.us/j/91520963182',
 		major: ['Computer Science', 'Computer Engineering', 'Electrical Engineering', 'Information Technology'],
 		position: ['Internship', 'Full Time'],
 		industry: ['Technology']
@@ -225,7 +225,7 @@ export const companyData = {
 		description: 'CDM Smith is a global privately owned engineering and construction firm providing legendary client service and smart solutions in water, environment, transportation, energy and facilities. In 1947, CDM Smith was founded with a commitment to maintain the constant pursuit of excellence, placing responsibility to our clients second only to responsibility to the public. By staying true to this promise for more than 70 years, we’ve forged tremendous, long-standing relationships, believing responsiveness is the foundation of serving our clients.',
 		careersLink: 'https://cdmsmith.com/en/Careers',
 		zoomLink: 'https://ucf.zoom.us/j/92222623135',
-		major: ['Mechanical Engineering', 'Civil Engineering', 'Construction Engineering', 'Environmental Engineering', 'Electrical Engineering', 'Mechanical Engineering'],
+		major: ['Civil Engineering', 'Construction Engineering', 'Environmental Engineering', 'Electrical Engineering', 'Mechanical Engineering'],
 		position: ['Internship', 'Full Time'],
 		industry: ['Construction', 'Transportation', 'Consulting', 'Energy']
 	},
@@ -234,8 +234,18 @@ export const companyData = {
 		tagline: 'Why Deloitte',
 		description: 'Look to your future. And find impact. However you look to make your impact on the world—through technology, business, finance, human capital, social change, or pure invention—Deloitte has opportunities that can help you make it happen.',
 		careersLink: 'https://www2.deloitte.com/us/en/careers/students.html?icid=top_students',
-		zoomLink: 'https://ucf.zoom.us/j/92375158012',
+		zoomLink: 'https://ucf.zoom.us/j/94961250792',
 		major: [],
+		position: ['Internship', 'Full Time'],
+		industry: []
+	},
+	'Northrop Grumman': {
+		img: require('../assets/images/northropOther.png'),
+		tagline: 'Why Northrop Grumman',
+		description: 'Northrop Grumman is a pioneering company. We design, develop, build and support some of the world’s most advanced products, from cutting-edge aircraft and next-generation spacecraft to unrivaled cyber security systems and all-seeing radars. Whether it\’s making a 200 ton airplane invisible, predicting cyber attacks before they happen or solving the mysteries of the universe, wherever the boundaries of possible are being pushed, Northrop Grumman is there.',
+		careersLink: 'https://www.northropgrumman.com/careers/',
+		zoomLink: 'https://ucf.zoom.us/j/98475865872',
+		major: ['Civil Engineering', 'Construction Engineering', 'Environmental Engineering', 'Electrical Engineering', 'Mechanical Engineering', 'Computer Science'],
 		position: ['Internship', 'Full Time'],
 		industry: []
 	},
@@ -244,7 +254,7 @@ export const companyData = {
 		tagline: 'Why Epic?',
 		description: 'As a global leader in the development of software for healthcare organizations, Epic is driving change for an entire industry – one that affects the quality of life for everyone. Our team collaborates with some of the world’s most respected healthcare organizations to improve both individual patient care and the health of entire communities',
 		careersLink: 'https://careers.epic.com/?utm_source=epiccomfooter&utm_campaign=tocareers',
-		zoomLink: 'https://ucf.zoom.us/j/92375158012',
+		zoomLink: 'https://ucf.zoom.us/j/96917795993?',
 		major: ['Computer Science', 'Computer Engineering'],
 		position: ['Internship', 'Full Time'],
 		industry: ['Technology']
@@ -274,7 +284,7 @@ export const companyData = {
 		tagline: 'Aerospace Redefined',
 		description: 'At Collins Aerospace, we’re working side-by-side with customers to unleash the exciting possibilities we see before us. With a comprehensive portfolio, extensive capabilities and broad expertise, we’re crafting intelligent solutions to meet the demands of a rapidly evolving global market – all representing the best in innovation and technology for the industries we serve.',
 		careersLink: 'https://jobs.collinsaerospace.com/',
-		zoomLink: 'Insert Zoom Link Here',
+		zoomLink: 'https://ucf.zoom.us/j/9648542761',
 		major: ['Aerospace Engineering', 'Computer Engineering', 'Computer Science', 'Electrical Engineering'],
 		position: ['Internship', 'Full Time'],
 		industry: ['Aerospace', 'Technology', 'Defense']

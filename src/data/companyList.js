@@ -89,7 +89,7 @@ export const dayOneData = [
 	},
 	{
 		companyName: 'CDM Smith',
-		logo: require('../assets/images/cdmSmithLogo.png'),
+		logo: require('../assets/images/cdmsmithLogo.png'),
 		shortDesc: 'Providing smart solutions in water, environment, transportation, energy & facilities.'
 	}
 	/*
@@ -155,6 +155,11 @@ export const dayTwoData = [
 		companyName: 'Sandia National Laboratories',
 		logo: require('../assets/images/sandiaLogo.png'),
 		shortDesc: 'A multiprogram engineering and science laboratory operated by National Technology and Engineering Solutions of Sandia'
+	},
+	{
+		companyName: 'Northrop Grumman',
+		logo: require('../assets/images/GN.png'),
+		shortDesc: 'We design, develop, build and support some of the world’s most advanced products.'
 	},
 	/*
 	 * {
