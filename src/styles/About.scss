@@ -1,0 +1,19 @@
+$greyLighter: #282828;
+
+.loginForm{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+	background-color: $greyLighter;
+	padding: 3.5rem;
+	border-radius: 20px;
+}
+
+.text{
+	color: white;
+	font-family: Poppins-Thin;
+	font-size: 4vh;
+	text-align: center;
+}
