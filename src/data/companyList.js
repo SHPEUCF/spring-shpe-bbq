@@ -90,7 +90,7 @@ export const dayTwoData = [
 	{
 		companyName: 'Sandia National Laboratories',
 		logo: require('../assets/images/sandiaLogo1.jpg'),
-		shortDesc: 'National security is our business. We apply science to help detect, repel, defeat, or mitigate threats.'
+		shortDesc: 'National security is our business. We apply science to help detect, repel, defeat, or mitigate threats. Sandia National Laboratories is the nation\'s premier science and engineering lab for national security and technology innovation. Sandia\'s mission is to serve our nation.'
 	},
 	{
 		companyName: 'Walt Disney World',

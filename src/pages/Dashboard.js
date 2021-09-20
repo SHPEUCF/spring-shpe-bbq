@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Cards, Search } from '../components';
 import { Admin } from './Admin';
-import { About } from "./About";
-import { Membership } from "./Membership";
+import { About } from './About';
+import { Membership } from './Membership';
 import Logo from '../assets/shpe/shpeucflogo_bb.svg';
 import Odi from '../assets/shpe/cecs-odi.png';
 import Services from '../assets/shpe/career-services.png';
@@ -59,17 +59,17 @@ export const Dashboard = () => {
 					<img className = 'logo' src = { Logo } alt = 'SHPE Industy BBQ'></img>
 				</div>
 				<ul>
-					<div onClick={() => setActiveTab("about")}>
-						<li className={activeTab === "about" ? "active" : ""}> About Us </li>
-					</div>
-					<div onClick={() => setActiveTab("membership")}>
-						<li className={activeTab === "membership" ? "active" : ""}> Join Us </li>
-					</div>
 					<div onClick = { () => setActiveTab('dayOne') }>
 						<li className = { activeTab === 'dayOne' ? 'active' : '' }>Non Tech</li>
 					</div>
 					<div onClick = { () => setActiveTab('dayTwo') }>
 						<li className = { activeTab === 'dayTwo' ? 'active' : '' }>Tech</li>
+					</div>
+					<div onClick = { () => setActiveTab('about') }>
+						<li className = { activeTab === 'about' ? 'active' : '' }> About Us </li>
+					</div>
+					<div onClick = { () => setActiveTab('membership') }>
+						<li className = { activeTab === 'membership' ? 'active' : '' }> Join Us </li>
 					</div>
 					{ /* <div onClick = { () => { setActiveTab('admin') } }>
 						<li className = { activeTab === 'admin' ? 'active' : '' }> Admin </li>
@@ -83,14 +83,14 @@ export const Dashboard = () => {
 		);
 	};
 
-	const Tabs = ({tab}) => {
+	const Tabs = ({ tab }) => {
 		switch (tab) {
-		  case "about":
-			return <About />
-		  case "membership":
-			return <Membership />
+		  case 'about':
+				return <About />;
+		  case 'membership':
+				return <Membership />;
 		  default:
-			return <Cards data={activeTab} search={searchInput} tags={filterInput} />
+				return <Cards data = { activeTab } search = { searchInput } tags = { filterInput } />;
 		}
 	  };
 
@@ -100,17 +100,17 @@ export const Dashboard = () => {
 			<div className = 'App'>
 				{ Nav() }
 				<div className = 'main'>
-					{activeTab === 'dayOne' || activeTab === 'dayTwo' ? (
+					{ /* { activeTab === 'dayOne' || activeTab === 'dayTwo' ? (
 						<div className = 'upperNav'>
-							<Search input={handleSearch} filters={handleFilter} />
+							<Search input = { handleSearch } filters = { handleFilter } />
 						</div>
-					) : null}
+					) : null } */ }
 					<div className = 'mainContent'>
-						{activeTab === 'dayOne' || activeTab === 'dayTwo' ? (
-							<Cards data={ activeTab } search={ searchInput } tags={ filterInput } />
+						{ activeTab === 'dayOne' || activeTab === 'dayTwo' ? (
+							<Cards data = { activeTab } search = { searchInput } tags = { filterInput } />
 						) : (
-							<Tabs tab={ activeTab } />
-						)}
+							<Tabs tab = { activeTab } />
+						) }
 					</div>
 				</div>
 			</div>

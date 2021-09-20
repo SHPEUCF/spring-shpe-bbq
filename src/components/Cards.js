@@ -61,11 +61,11 @@ export const Cards = ({ data, search, tags }) => {
 		return (
 			<Grid container className = 'layout'>
 				{ filterCompanies.map(({ companyName, logo, shortDesc }, index) =>
-					<Card className = 'cards' key = { index }>
-						<CardActionArea onClick = { () => {
-							setSelectedCompany(filterCompanies[index].companyName);
-							setShow(true);
-						} }>
+					<Card className = 'cards' key = { index } onClick = { () => {
+						setSelectedCompany(filterCompanies[index].companyName);
+						setShow(true);
+					} }>
+						<CardActionArea>
 							<CardMedia component = 'img' alt = { companyName } image = { logo } title = { companyName } />
 							<CardContent>
 								<Typography className = 'cardText' variant = 'body1' color = 'textSecondary'>
