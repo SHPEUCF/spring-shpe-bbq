@@ -80,10 +80,10 @@ export const Dashboard = () => {
 				</div>
 				<ul>
 					<div onClick = { () => setActiveTab('dayOne') }>
-						<li className = { activeTab === 'dayOne' ? 'active' : '' }>Section 1</li>
+						<li className = { activeTab === 'dayOne' ? 'active' : '' }>Section 1: 3:00 - 5:00 PM</li>
 					</div>
 					<div onClick = { () => setActiveTab('dayTwo') }>
-						<li className = { activeTab === 'dayTwo' ? 'active' : '' }>Section 2</li>
+						<li className = { activeTab === 'dayTwo' ? 'active' : '' }>Section 2 5:00 - 7:00 PM</li>
 					</div>
 					<div onClick = { () => setActiveTab('about') }>
 						<li className = { activeTab === 'about' ? 'active' : '' }>About Us</li>
