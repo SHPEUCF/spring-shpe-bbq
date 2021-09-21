@@ -24,11 +24,13 @@ export const dayOneData = [
 		logo: require('../assets/images/nasa.svg'),
 		shortDesc: 'To discover and expand knowledge for the benefit of humanity.'
 	},
-	{
-		companyName: 'Kiewit',
-		logo: require('../assets/images/kiewitLogo1.png'),
-		shortDesc: 'Kiewit’s commitment to safety, quality and environmental stewardship are ingrained in everything we do.'
-	},
+	/*
+	 * {
+	 * 	companyName: 'Kiewit',
+	 * 	logo: require('../assets/images/kiewitLogo1.png'),
+	 * 	shortDesc: 'Kiewit’s commitment to safety, quality and environmental stewardship are ingrained in everything we do.'
+	 * },
+	 */
 	{
 		companyName: 'Boeing',
 		logo: require('../assets/images/boeingLogo.png'),

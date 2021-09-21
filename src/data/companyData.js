@@ -119,16 +119,18 @@ export const companyData = {
 		position: ['Internship', 'Full Time'],
 		industry: []
 	},
-	'Kiewit': {
-		img: require('../assets/images/kiewitOther.jpg'),
-		tagline: 'OUR CULTURE',
-		description: 'With its roots dating back to 1884, Kiewit is an employee-owned organization that operates through a network of subsidiaries in the United States, Canada, and Mexico. Kiewit offers construction and engineering services in a variety of markets including transportation; oil, gas and chemical; power; building; water/wastewater; industrial; and mining. Kiewit had 2019 revenues of $10.3 billion and employs 23,000 staff and craft employees. ',
-		careersLink: 'http://kiewit.com',
-		zoomLink: 'https://ucf.zoom.us/j/94837081039',
-		major: [],
-		position: ['Internship', 'Full Time'],
-		industry: []
-	},
+	/*
+	 * 'Kiewit': {
+	 * 	img: require('../assets/images/kiewitOther.jpg'),
+	 * 	tagline: 'OUR CULTURE',
+	 * 	description: 'With its roots dating back to 1884, Kiewit is an employee-owned organization that operates through a network of subsidiaries in the United States, Canada, and Mexico. Kiewit offers construction and engineering services in a variety of markets including transportation; oil, gas and chemical; power; building; water/wastewater; industrial; and mining. Kiewit had 2019 revenues of $10.3 billion and employs 23,000 staff and craft employees. ',
+	 * 	careersLink: 'http://kiewit.com',
+	 * 	zoomLink: 'https://ucf.zoom.us/j/94837081039',
+	 * 	major: [],
+	 * 	position: ['Internship', 'Full Time'],
+	 * 	industry: []
+	 * },
+	 */
 	'NASA': {
 		img: require('../assets/images/nasa.jpeg'),
 		tagline: 'To discover and expand knowledge for the benefit of humanity.',

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React, { useState } from 'react';
 import { Cards, Search } from '../components';
 import { Admin } from './Admin';
@@ -12,8 +13,10 @@ import {
 	Dialog,
 	DialogActions,
 	DialogContent,
-	DialogTitle
+	DialogTitle,
+	Typography
 } from '@material-ui/core/';
+import Jaz from '../assets/images/jaz.png';
 
 export const Dashboard = () => {
 	const [activeTab, setActiveTab] = useState('dayOne');
@@ -30,17 +33,34 @@ export const Dashboard = () => {
 				<Dialog
 					open = { video }
 					onClose = { () => setVideo(false) }
+
 				>
 					<DialogTitle>
 						A Message from Our President
 					</DialogTitle>
 					<DialogContent>
-						<DialogContent>
-							<iframe className = 'video' src = 'https://www.youtube.com/embed/f0aFnUr8vxY' frameborder = '0' allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+						<DialogContent
+							style = {{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}
+						>
+							<img style = {{ height: '30vh', width: '30vh' }} src = { Jaz } alt = 'Oh no' />
 						</DialogContent>
+						<Typography variant = 'body1'>
+							Hi there!
+						</Typography>
+						<Typography variant = 'body1'>
+							Thank you for joining us today at our Fall 2021 Industry BBQ. I want to start off by thanking all of our professionals and tech team, Sofia Montaña and Bryce Villanueva, for making this great event possible. Please browse around the site to check out all those in attendance throughout day, and learn more about us, while your at it.
+							If this is your first time hearing about us, be sure to take a look at the ‘About Us’ section to learn more and join the Familia.
+							Once again, thank you and hope you enjoy the event!
+						</Typography>
+						<Typography variant = 'body1'>
+							All the Best,
+						</Typography>
+						<Typography variant = 'subtitle1'>
+							Jazmine Manriquez
+						</Typography>
 					</DialogContent>
 					<DialogActions>
-						<Button size = 'small' color = 'primary' onClick = { () => { window.open('https://docs.google.com/forms/d/e/1FAIpQLSdhb0AG6LZeg4Kh69_XBtsbJfanxAnsAj6CMkKzKlNN8aPv9A/viewform', '_blank') } }>
+						<Button size = 'small' color = 'primary' onClick = { () => { window.open('https://docs.google.com/forms/d/e/1FAIpQLSdh2ga7W6Yqprp9_Bw40qmsJ_f9Cv6of7yH8A6gq-Nwin7wvQ/viewform', '_blank') } }>
 							<b>Student Registration</b>
 						</Button>
 						<Button size = 'small' color = 'primary' onClick = { () => setVideo(false) }>
@@ -60,16 +80,16 @@ export const Dashboard = () => {
 				</div>
 				<ul>
 					<div onClick = { () => setActiveTab('dayOne') }>
-						<li className = { activeTab === 'dayOne' ? 'active' : '' }>Non Tech</li>
+						<li className = { activeTab === 'dayOne' ? 'active' : '' }>Section 1</li>
 					</div>
 					<div onClick = { () => setActiveTab('dayTwo') }>
-						<li className = { activeTab === 'dayTwo' ? 'active' : '' }>Tech</li>
+						<li className = { activeTab === 'dayTwo' ? 'active' : '' }>Section 2</li>
 					</div>
 					<div onClick = { () => setActiveTab('about') }>
-						<li className = { activeTab === 'about' ? 'active' : '' }> About Us </li>
+						<li className = { activeTab === 'about' ? 'active' : '' }>About Us</li>
 					</div>
 					<div onClick = { () => setActiveTab('membership') }>
-						<li className = { activeTab === 'membership' ? 'active' : '' }> Join Us </li>
+						<li className = { activeTab === 'membership' ? 'active' : '' }>Join Us</li>
 					</div>
 					{ /* <div onClick = { () => { setActiveTab('admin') } }>
 						<li className = { activeTab === 'admin' ? 'active' : '' }> Admin </li>

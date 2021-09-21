@@ -5,7 +5,7 @@ import '../styles/Membership.scss';
 export const Membership = () => {
 	return (
 		<div className = 'text'>
-			<h2>How a SHPE UCF Member!</h2>
+			<h2>How a to become SHPE UCF Member!</h2>
 			<ul>
 				<Typography variant = 'h5'>Go to <Tooltip title = 'Click to go to SHPE Website'><a className = 'link' href = 'https://shpeucf.com'>SHPE Website</a></Tooltip></Typography>
 				<Typography variant = 'h5'>Click on the Membership Tab</Typography>
