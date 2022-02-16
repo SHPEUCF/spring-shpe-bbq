@@ -75,7 +75,7 @@ export const companyData = {
 		tagline: 'Goldman Sachs Engineers don\'t just make things happen - we make things possible. Learn more at gs.com/careers',
 		description: 'Goldman Sachs Engineers change the world by connecting people and capital with ideas.Join our engineering teams that build massively scalable software and systems, architect low latency solutions, proactively guard against cyber threats, and leverage machine learning alongside financial engineering to continuously turn data into action. Create new businesses, transform finance, and explore a world of opportunity at the speed of markets. Want to push the limit of digital possibilities? Start by going to gs.com/careers',
 		careersLink: 'http://www.goldmansachs.com/careers',
-		zoomLink: 'https://ucf.zoom.us/j/97509846962',
+		zoomLink: 'https://ucf.zoom.us/j/95369024009',
 		major: [],
 		position: ['Internship', 'Full Time'],
 		industry: []

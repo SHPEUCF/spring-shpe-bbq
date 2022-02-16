@@ -48,9 +48,10 @@ export const Dashboard = () => {
 							Hi there!
 						</Typography>
 						<Typography variant = 'body1'>
-							Thank you for joining us today at our Fall 2021 Industry BBQ. I want to start off by thanking all of our professionals and tech team, Sofia Montaña and Bryce Villanueva, for making this great event possible. Please browse around the site to check out all those in attendance throughout day, and learn more about us, while your at it.
-							If this is your first time hearing about us, be sure to take a look at the ‘About Us’ section to learn more and join the Familia.
-							Once again, thank you and hope you enjoy the event!
+							So happy you’ve join us for the Spring 2022 SHPEUCF Industry BBQ. Huge thank you to our professionals, 
+							company sponsors and most of all our board members who was able to make this great event happen, 
+							Sofia Montaña and Fredrick Santiago. Please stop by all the companies attending here today and if you’re 
+							new to SHPE, WELCOME!
 						</Typography>
 						<Typography variant = 'body1'>
 							All the Best,
