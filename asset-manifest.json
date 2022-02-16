@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.52549930.chunk.css",
-    "main.js": "/static/js/main.b716d77b.chunk.js",
-    "main.js.map": "/static/js/main.b716d77b.chunk.js.map",
+    "main.js": "/static/js/main.bfac1417.chunk.js",
+    "main.js.map": "/static/js/main.bfac1417.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6d153511.js",
     "runtime-main.js.map": "/static/js/runtime-main.6d153511.js.map",
-    "static/js/2.f66a7a43.chunk.js": "/static/js/2.f66a7a43.chunk.js",
-    "static/js/2.f66a7a43.chunk.js.map": "/static/js/2.f66a7a43.chunk.js.map",
+    "static/js/2.e47017df.chunk.js": "/static/js/2.e47017df.chunk.js",
+    "static/js/2.e47017df.chunk.js.map": "/static/js/2.e47017df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8e485fb875386b816c4ad4c379c5f671.js": "/precache-manifest.8e485fb875386b816c4ad4c379c5f671.js",
+    "precache-manifest.dbaf924dd603738d4cf609bfcc8cb330.js": "/precache-manifest.dbaf924dd603738d4cf609bfcc8cb330.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.52549930.chunk.css.map": "/static/css/main.52549930.chunk.css.map",
-    "static/js/2.f66a7a43.chunk.js.LICENSE.txt": "/static/js/2.f66a7a43.chunk.js.LICENSE.txt",
+    "static/js/2.e47017df.chunk.js.LICENSE.txt": "/static/js/2.e47017df.chunk.js.LICENSE.txt",
     "static/media/Blackcloak-Logo.png": "/static/media/Blackcloak-Logo.f6cbbdc6.png",
     "static/media/CC Opened Logo.png": "/static/media/CC Opened Logo.134023dd.png",
     "static/media/CRM page.jpg": "/static/media/CRM page.1de146a2.jpg",
@@ -48,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6d153511.js",
-    "static/js/2.f66a7a43.chunk.js",
+    "static/js/2.e47017df.chunk.js",
     "static/css/main.52549930.chunk.css",
-    "static/js/main.b716d77b.chunk.js"
+    "static/js/main.bfac1417.chunk.js"
   ]
 }
