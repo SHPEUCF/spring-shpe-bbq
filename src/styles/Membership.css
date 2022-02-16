@@ -1,0 +1,12 @@
+
+.text{
+	color: white;
+	font-family: Poppins-Thin;
+	font-weight: normal;
+	text-align: center;
+}
+
+.link {
+	color: gold;
+	text-decoration: none;
+}

@@ -7,7 +7,7 @@ import { Membership } from './Membership';
 import Logo from '../assets/shpe/shpeucflogo_bb.svg';
 import Odi from '../assets/shpe/cecs-odi.png';
 import Services from '../assets/shpe/career-services.png';
-import '../styles/Dashboard.scss';
+import '../styles/Dashboard.css';
 import {
 	Button,
 	Dialog,
@@ -80,11 +80,11 @@ export const Dashboard = () => {
 				</div>
 				<ul>
 					<div onClick = { () => setActiveTab('dayOne') }>
-						<li className = { activeTab === 'dayOne' ? 'active' : '' }>Section 1: 3:00 - 5:00 PM</li>
+						<li className = { activeTab === 'dayOne' ? 'active' : '' }>BBQ Virtual Companies</li>
 					</div>
-					<div onClick = { () => setActiveTab('dayTwo') }>
+					{ /* <div onClick = { () => setActiveTab('dayTwo') }>
 						<li className = { activeTab === 'dayTwo' ? 'active' : '' }>Section 2 5:00 - 7:00 PM</li>
-					</div>
+					</div> */ }
 					<div onClick = { () => setActiveTab('about') }>
 						<li className = { activeTab === 'about' ? 'active' : '' }>About Us</li>
 					</div>

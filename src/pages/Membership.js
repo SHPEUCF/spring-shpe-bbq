@@ -1,6 +1,6 @@
 import { Tooltip, Typography } from '@material-ui/core';
 import React from 'react';
-import '../styles/Membership.scss';
+import '../styles/Membership.css';
 
 export const Membership = () => {
 	return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { searchFilters, companyData } from '../data';
-import '../styles/Dashboard.scss';
+import '../styles/Dashboard.css';
 import SearchIcon from '@material-ui/icons/Search';
 import {
 	Checkbox,

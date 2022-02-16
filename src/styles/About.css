@@ -1,0 +1,14 @@
+.text{
+	color: white;
+	font-family: Poppins-Thin;
+	text-align: center;
+}
+
+.socials {
+	align-items: center;
+	color: white;
+	display: flex;
+	font-family: Poppins-Thin;
+	justify-content: center;
+	text-align: center;
+}

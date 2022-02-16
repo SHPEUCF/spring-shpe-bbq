@@ -1,36 +1,9 @@
 export const dayOneData = [
 	{
-		companyName: 'Gartner',
-		logo: require('../assets/images/gartnerLogo.jpg'),
-		shortDesc: 'Gartner delivers actionable, objective insight to executives and their teams.'
-	},
-	{
 		companyName: 'Caterpillar',
 		logo: require('../assets/images/Caterpillar logo.png'),
-		shortDesc: 'Our longstanding commitment to sustainability inspires us to improve the quality of the environment.'
+		shortDesc: 'DO WORK THAT MATTERS.'
 	},
-	{
-		companyName: 'Kimley Horn',
-		logo: require('../assets/images/kimleyLogo1.png'),
-		shortDesc: 'We provide an environment for our people to flourish.'
-	},
-	{
-		companyName: 'Lockheed Martin',
-		logo: require('../assets/images/lockheedLogo.png'),
-		shortDesc: 'Your mission is ours. We solve complex challenges, advance scientific discovery and deliver innovative solutions.'
-	},
-	{
-		companyName: 'NASA',
-		logo: require('../assets/images/nasa.svg'),
-		shortDesc: 'To discover and expand knowledge for the benefit of humanity.'
-	},
-	/*
-	 * {
-	 * 	companyName: 'Kiewit',
-	 * 	logo: require('../assets/images/kiewitLogo1.png'),
-	 * 	shortDesc: 'Kiewit’s commitment to safety, quality and environmental stewardship are ingrained in everything we do.'
-	 * },
-	 */
 	{
 		companyName: 'Boeing',
 		logo: require('../assets/images/boeingLogo.png'),
@@ -42,9 +15,39 @@ export const dayOneData = [
 		shortDesc: 'By investing in infrastructure & innovative clean energy, we\'re helping create a sustainable energy future for America.'
 	},
 	{
-		companyName: 'Larson Design Group',
-		logo: require('../assets/images/ldg.jpg'),
-		shortDesc: 'Larson Design Group is an award-winning, employee-owned Architecture, Engineering, and Consulting firm.'
+		companyName: 'ContinuumCloud',
+		logo: require('../assets/images/ContinuumCloud.png'),
+		shortDesc: 'By investing in infrastructure & innovative clean energy, we\'re helping create a sustainable energy future for America.'
+	},
+	{
+		companyName: 'Goldman Sachs',
+		logo: require('../assets/images/Goldman-Sachs-Logo.png'),
+		shortDesc: 'Goldman Sachs Engineers don\'t just make things happen - we make things possible.'
+	},
+	{
+		companyName: 'Walt Disney World',
+		logo: require('../assets/images/disneyLogo1.jpg'),
+		shortDesc: 'We engineer magic'
+	},
+	{
+		companyName: 'Accenture',
+		logo: require('../assets/images/accentureLogo.jpg'),
+		shortDesc: 'Our purpose is to deliver on the promise of technology and human ingenuity.'
+	},
+	{
+		companyName: 'Microsoft',
+		logo: require('../assets/images/microsoftLogo.png'),
+		shortDesc: 'Our mission is to empower every person and every organization on the planet to achieve more.'
+	},
+	{
+		companyName: 'Meta',
+		logo: require('../assets/images/Meta_Logo.jpg'),
+		shortDesc: 'When we build for the world, we bring our talents, experiences, and passions with us. '
+	},
+	{
+		companyName: 'Figma',
+		logo: require('../assets/images/figma1.png'),
+		shortDesc: 'Figma is a design platform for teams who build products together.'
 	}
 ];
 

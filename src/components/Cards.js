@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { dayOneData, dayTwoData, companyData } from '../data';
-import '../styles/Cards.scss';
+import '../styles/Cards.css';
 import {
 	Grid,
 	Card,

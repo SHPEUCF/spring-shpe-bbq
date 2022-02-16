@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/About.scss';
+import '../styles/About.css';
 import { FaDiscord, FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa';
 import { IconButton, Typography } from '@material-ui/core';
 
