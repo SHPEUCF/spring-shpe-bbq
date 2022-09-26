@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import RedirApp from './RedirApp';
 import './index.css';
 import './assets/fonts/Poppins-SemiBold.ttf';
 import './assets/fonts/Poppins-Regular.ttf';
@@ -9,7 +9,7 @@ import './assets/fonts/Poppins-Thin.ttf';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<App />
+		<RedirApp />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
